@@ -1,7 +1,7 @@
 # Verification — November 1, 2026
 
 - TypeScript `tsc --noEmit`: passed.
-- Production build: passed before final imagery/content update; final rebuild is part of publication packaging.
+- Production build: passed with final imagery/content during publication packaging.
 - Local HTTP smoke suite: 15 routes return 200 and include unique titles, descriptions, canonical tags, h1 and preview noindex.
 - Internal page links and assets: resolved successfully.
 - No cart/buy controls in rendered pages.
