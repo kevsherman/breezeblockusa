@@ -17,3 +17,14 @@
 Browser layout/accessibility/interaction QA was not completed: the computer-use browser host returned unavailable. Mobile/desktop styling is implemented, but visual rendering and keyboard interaction still need real-browser verification before public release. No Lighthouse/Core Web Vitals score is claimed.
 
 Local fixtures are not included in the deployment archive. Production D1 is provisioned independently by Sites migrations.
+
+## Full catalogue update
+
+- Source pagination confirmed complete: 24 products, eight patterns.
+- Catalogue checks passed for every product route, unique metadata, Product structured data, published specification values, sitemap inclusion and product/finish quote parameters.
+- 90 optimized local images verified present; source image mapping recorded in `data/catalog-provenance.json`.
+- Pattern routes return 200; unknown product routes return 404.
+- Existing 15-route and quote API smoke suite passed after integration.
+- TypeScript passed. Production build runs as part of publication packaging.
+- Browser host remains unavailable; filter interactions, gallery buttons and quote-field prefill require visual/browser QA before public launch. The server-rendered catalogue and generated selection URLs were verified over HTTP.
+- Technical downloads are source reference links, not independently validated engineering approvals.

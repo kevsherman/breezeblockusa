@@ -38,3 +38,9 @@ See [TECHNICAL_ROADMAP.md](TECHNICAL_ROADMAP.md) for priorities, exact public-la
 All enquiries are saved in D1. `notification_status = pending` does not trigger an email: mail/CRM delivery is a public-launch dependency. Owner-only Sites database tools can inspect the queue during review. There is no public listing endpoint. The privacy notice is a preview draft pending the actual legal seller and operational policy.
 
 Do not expose this preview as a public acquisition site merely by flipping `publicLaunch`. Finish the launch checklist and verify domain access, email/CRM delivery and policy content first. Never commit secrets or test database state.
+
+## Catalogue
+
+`data/catalog.json` contains all 24 published source products, normalized into eight pattern groups and distinct size/finish routes. `data/catalog-provenance.json` records source IDs and asset mappings for later reconciliation. `lib/catalog.ts` supplies route and quote helpers. Dedicated pages under `app/breeze-blocks/` render the catalogue, pattern families and products. No checkout, pricing or live inventory synchronization is used.
+
+Run `node scripts/test-catalog.mjs` against the local preview to check source coverage, routes, metadata, images, specification values and quote-selection URLs. Refresh source data deliberately, retaining US copy/availability rules and checking SKU specification changes before republishing.

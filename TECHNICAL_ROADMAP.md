@@ -151,3 +151,7 @@ The compliance and tariff figures in the proposal were not revalidated in this t
 ## Updated positioning — November 1, 2026
 
 Per owner direction, the marketing site does not foreground shipment from Canada or non-US manufacture. Homepage, footer, regional and delivery copy, product captions, alt text and metadata focus on design, Northwest project coverage and quoting. No US manufacturing, US warehouse or local-office claim is introduced. Actual fulfilment and origin remain recorded in internal operating materials and should be accurately stated in relevant specifications, quotes and required disclosures. The existing verified contact inbox remains unchanged until a US alias is provisioned.
+
+## Full catalogue expansion — November 1, 2026
+
+Owner expanded the website scope to the complete published catalogue: 24 products across eight patterns. The catalogue now includes filters, individual size/finish pages, 90 local gallery images, dimensions, weights, reference-document links and product-prefilled quote/sample enquiries. This supersedes the three-pattern website scope above; operational stock and suitability still require project confirmation. Final specifications use the current published product tables as references, not the source variant shipping weights.

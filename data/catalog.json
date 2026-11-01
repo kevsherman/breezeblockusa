@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "9643924881721",
+    "pattern": "Four Leaf",
+    "patternSlug": "four-leaf",
+    "variantSlug": "large-white",
+    "title": "Large White Four Leaf Breeze Block",
+    "size": "Large",
+    "finish": "White",
+    "description": "Four leaf-shaped openings create a botanical repeat with a softer rhythm.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "18.5 lbs"
+    },
+    "images": [
+      "/images/catalog/four-leaf-large-white-1.webp",
+      "/images/catalog/four-leaf-large-white-2.webp",
+      "/images/catalog/four-leaf-large-white-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.pdf?v=2985131538859030000",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.dwg?v=8975976140119487478",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.step?v=16816083536789948996",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.skp?v=15785678566185031905",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858952724793",
+    "pattern": "Four Leaf",
+    "patternSlug": "four-leaf",
+    "variantSlug": "large-grey",
+    "title": "Large Grey Four Leaf Breeze Block",
+    "size": "Large",
+    "finish": "Grey",
+    "description": "Four leaf-shaped openings create a botanical repeat with a softer rhythm.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "18.5 lbs"
+    },
+    "images": [
+      "/images/catalog/four-leaf-large-grey-1.webp",
+      "/images/catalog/four-leaf-large-grey-2.webp",
+      "/images/catalog/four-leaf-large-grey-3.webp",
+      "/images/catalog/four-leaf-large-grey-4.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.pdf?v=2985131538859030000",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.dwg?v=8975976140119487478",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.step?v=16816083536789948996",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_L.skp?v=15785678566185031905",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9656210981177",
+    "pattern": "Four Leaf",
+    "patternSlug": "four-leaf",
+    "variantSlug": "small-white",
+    "title": "Small White Four Leaf Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "Four leaf-shaped openings create a botanical repeat with a softer rhythm.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.6 lbs"
+    },
+    "images": [
+      "/images/catalog/four-leaf-small-white-1.webp",
+      "/images/catalog/four-leaf-small-white-2.webp",
+      "/images/catalog/four-leaf-small-white-3.webp",
+      "/images/catalog/four-leaf-small-white-4.webp",
+      "/images/catalog/four-leaf-small-white-5.webp",
+      "/images/catalog/four-leaf-small-white-6.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_SM.step?v=17478047046800995817",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_SM.skp?v=10566416605072210444",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858958688569",
+    "pattern": "Four Leaf",
+    "patternSlug": "four-leaf",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Four Leaf Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "Four leaf-shaped openings create a botanical repeat with a softer rhythm.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.6 lbs"
+    },
+    "images": [
+      "/images/catalog/four-leaf-small-grey-1.webp",
+      "/images/catalog/four-leaf-small-grey-2.webp",
+      "/images/catalog/four-leaf-small-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_SM.step?v=17478047046800995817",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_FOURLEAF_SM.skp?v=10566416605072210444",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9639643644217",
+    "pattern": "Square on Square",
+    "patternSlug": "square-on-square",
+    "variantSlug": "large-white",
+    "title": "Large White Square on Square Breeze Block",
+    "size": "Large",
+    "finish": "White",
+    "description": "A square opening and layered geometric frame create crisp lines and a strong repeat.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "19.1 lbs"
+    },
+    "images": [
+      "/images/catalog/square-on-square-large-white-1.webp",
+      "/images/catalog/square-on-square-large-white-2.webp",
+      "/images/catalog/square-on-square-large-white-3.webp",
+      "/images/catalog/square-on-square-large-white-4.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.pdf?v=11889565087203867143",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.dwg?v=13771814337218229295",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.step?v=7056810684998098061",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.skp?v=15236284629842301501",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858950529337",
+    "pattern": "Square on Square",
+    "patternSlug": "square-on-square",
+    "variantSlug": "large-grey",
+    "title": "Large Grey Square on Square Breeze Block",
+    "size": "Large",
+    "finish": "Grey",
+    "description": "A square opening and layered geometric frame create crisp lines and a strong repeat.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "19.1 lbs"
+    },
+    "images": [
+      "/images/catalog/square-on-square-large-grey-1.webp",
+      "/images/catalog/square-on-square-large-grey-2.webp",
+      "/images/catalog/square-on-square-large-grey-3.webp",
+      "/images/catalog/square-on-square-large-grey-4.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.pdf?v=11889565087203867143",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.dwg?v=13771814337218229295",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.step?v=7056810684998098061",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_L.skp?v=15236284629842301501",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9656080531769",
+    "pattern": "Square on Square",
+    "patternSlug": "square-on-square",
+    "variantSlug": "small-white",
+    "title": "Small White Square on Square Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "A square opening and layered geometric frame create crisp lines and a strong repeat.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.8 lbs"
+    },
+    "images": [
+      "/images/catalog/square-on-square-small-white-1.webp",
+      "/images/catalog/square-on-square-small-white-2.webp",
+      "/images/catalog/square-on-square-small-white-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.pdf?v=9595977219298332920",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.dwg?v=6930963594019877031",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.step?v=18260071040928221917",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.skp?v=9346689761392898639",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858955641145",
+    "pattern": "Square on Square",
+    "patternSlug": "square-on-square",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Square on Square Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "A square opening and layered geometric frame create crisp lines and a strong repeat.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.8 lbs"
+    },
+    "images": [
+      "/images/catalog/square-on-square-small-grey-1.webp",
+      "/images/catalog/square-on-square-small-grey-2.webp",
+      "/images/catalog/square-on-square-small-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.pdf?v=9595977219298332920",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.dwg?v=6930963594019877031",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.step?v=18260071040928221917",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_SQUARE_SM.skp?v=9346689761392898639",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9670517063993",
+    "pattern": "Bulls Eye",
+    "patternSlug": "bulls-eye",
+    "variantSlug": "small-white",
+    "title": "Small White Bulls Eye Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "A circular opening within a sculpted frame brings a bold focal point to the wall.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "7.2 lbs"
+    },
+    "images": [
+      "/images/catalog/bulls-eye-small-white-1.webp",
+      "/images/catalog/bulls-eye-small-white-2.webp",
+      "/images/catalog/bulls-eye-small-white-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.pdf?v=2053929172960052610",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.dwg?v=15955462565146263047",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.step?v=3497416833461757560",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.skp?v=1427098505933749468",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858953609529",
+    "pattern": "Bulls Eye",
+    "patternSlug": "bulls-eye",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Bulls Eye Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "A circular opening within a sculpted frame brings a bold focal point to the wall.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "7.2 lbs"
+    },
+    "images": [
+      "/images/catalog/bulls-eye-small-grey-1.webp",
+      "/images/catalog/bulls-eye-small-grey-2.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.pdf?v=2053929172960052610",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.dwg?v=15955462565146263047",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.step?v=3497416833461757560",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_BULLSEYE_SM.skp?v=1427098505933749468",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9645247136057",
+    "pattern": "Empress",
+    "patternSlug": "empress",
+    "variantSlug": "large-white",
+    "title": "Large White Empress Breeze Block",
+    "size": "Large",
+    "finish": "White",
+    "description": "Curved openings form a flowing, sculptural pattern across an architectural screen.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "17.2 lbs"
+    },
+    "images": [
+      "/images/catalog/empress-large-white-1.webp",
+      "/images/catalog/empress-large-white-2.webp",
+      "/images/catalog/empress-large-white-3.webp",
+      "/images/catalog/empress-large-white-4.webp",
+      "/images/catalog/empress-large-white-5.webp",
+      "/images/catalog/empress-large-white-6.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.pdf?v=15174663252922194459",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.dwg?v=2998223912168978115",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.step?v=16265553800347823976",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.skp?v=2358242785201369263",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858270691641",
+    "pattern": "Empress",
+    "patternSlug": "empress",
+    "variantSlug": "large-grey",
+    "title": "Large Grey Empress Breeze Block",
+    "size": "Large",
+    "finish": "Grey",
+    "description": "Curved openings form a flowing, sculptural pattern across an architectural screen.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "17.2 lbs"
+    },
+    "images": [
+      "/images/catalog/empress-large-grey-1.webp",
+      "/images/catalog/empress-large-grey-2.webp",
+      "/images/catalog/empress-large-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.pdf?v=15174663252922194459",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.dwg?v=2998223912168978115",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.step?v=16265553800347823976",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_L.skp?v=2358242785201369263",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9656184570169",
+    "pattern": "Empress",
+    "patternSlug": "empress",
+    "variantSlug": "small-white",
+    "title": "Small White Empress Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "Curved openings form a flowing, sculptural pattern across an architectural screen.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.6 lbs"
+    },
+    "images": [
+      "/images/catalog/empress-small-white-1.webp",
+      "/images/catalog/empress-small-white-2.webp",
+      "/images/catalog/empress-small-white-3.webp",
+      "/images/catalog/empress-small-white-4.webp",
+      "/images/catalog/empress-small-white-5.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.pdf?v=12158894343389991964",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.dwg?v=17415485851385204185",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.step?v=527093614986654245",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.skp?v=13256119064462664968",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858956820793",
+    "pattern": "Empress",
+    "patternSlug": "empress",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Empress Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "Curved openings form a flowing, sculptural pattern across an architectural screen.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.6 lbs"
+    },
+    "images": [
+      "/images/catalog/empress-small-grey-1.webp",
+      "/images/catalog/empress-small-grey-2.webp",
+      "/images/catalog/empress-small-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.pdf?v=12158894343389991964",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.dwg?v=17415485851385204185",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.step?v=527093614986654245",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_EMPRESS_SM.skp?v=13256119064462664968",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9660430909753",
+    "pattern": "Seafoam",
+    "patternSlug": "seafoam",
+    "variantSlug": "small-white",
+    "title": "Small White Seafoam Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "A wave-like pattern brings movement and a softer geometry to the screen.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.2 lbs"
+    },
+    "images": [
+      "/images/catalog/seafoam-small-white-1.webp",
+      "/images/catalog/seafoam-small-white-2.webp",
+      "/images/catalog/seafoam-small-white-3.webp",
+      "/images/catalog/seafoam-small-white-4.webp",
+      "/images/catalog/seafoam-small-white-5.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858963374393",
+    "pattern": "Seafoam",
+    "patternSlug": "seafoam",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Seafoam Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "A wave-like pattern brings movement and a softer geometry to the screen.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.2 lbs"
+    },
+    "images": [
+      "/images/catalog/seafoam-small-grey-1.webp",
+      "/images/catalog/seafoam-small-grey-2.webp",
+      "/images/catalog/seafoam-small-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9660405285177",
+    "pattern": "Circle",
+    "patternSlug": "circle",
+    "variantSlug": "large-white",
+    "title": "Large White Circle Breeze Block",
+    "size": "Large",
+    "finish": "White",
+    "description": "A simple circular opening creates a clean, balanced rhythm of light and shadow.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "17.2 lbs"
+    },
+    "images": [
+      "/images/catalog/circle-large-white-1.webp",
+      "/images/catalog/circle-large-white-2.webp",
+      "/images/catalog/circle-large-white-3.webp",
+      "/images/catalog/circle-large-white-4.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.pdf?v=9346090585761666779",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.dwg?v=16464299238829486917",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.step?v=8680616130510791225",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.skp?v=9600581710237806571",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858951545145",
+    "pattern": "Circle",
+    "patternSlug": "circle",
+    "variantSlug": "large-grey",
+    "title": "Large Grey Circle Breeze Block",
+    "size": "Large",
+    "finish": "Grey",
+    "description": "A simple circular opening creates a clean, balanced rhythm of light and shadow.",
+    "specs": {
+      "Width": "290 mm / 11.42 in",
+      "Height": "290 mm / 11.42 in",
+      "Depth": "90 mm / 3.54 in",
+      "Weight": "17.2 lbs"
+    },
+    "images": [
+      "/images/catalog/circle-large-grey-1.webp",
+      "/images/catalog/circle-large-grey-2.webp",
+      "/images/catalog/circle-large-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.pdf?v=9346090585761666779",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.dwg?v=16464299238829486917",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.step?v=8680616130510791225",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_CIRCLE_L.skp?v=9600581710237806571",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-290-2026-08.pdf?v=1230954907201581641",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9660412723513",
+    "pattern": "Circle",
+    "patternSlug": "circle",
+    "variantSlug": "small-white",
+    "title": "Small White Circle Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "A simple circular opening creates a clean, balanced rhythm of light and shadow.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "5.5 lbs"
+    },
+    "images": [
+      "/images/catalog/circle-small-white-1.webp",
+      "/images/catalog/circle-small-white-2.webp",
+      "/images/catalog/circle-small-white-3.webp",
+      "/images/catalog/circle-small-white-4.webp",
+      "/images/catalog/circle-small-white-5.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858955149625",
+    "pattern": "Circle",
+    "patternSlug": "circle",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Circle Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "A simple circular opening creates a clean, balanced rhythm of light and shadow.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "5.5 lbs"
+    },
+    "images": [
+      "/images/catalog/circle-small-grey-1.webp",
+      "/images/catalog/circle-small-grey-2.webp",
+      "/images/catalog/circle-small-grey-3.webp",
+      "/images/catalog/circle-small-grey-4.webp",
+      "/images/catalog/circle-small-grey-5.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9670518735161",
+    "pattern": "Courtyard",
+    "patternSlug": "courtyard",
+    "variantSlug": "small-white",
+    "title": "Small White Courtyard Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "An angular, open pattern adds definition and depth to a repeated screen.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.4 lbs"
+    },
+    "images": [
+      "/images/catalog/courtyard-small-white-1.webp",
+      "/images/catalog/courtyard-small-white-2.webp",
+      "/images/catalog/courtyard-small-white-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.pdf?v=12705522255252311541",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.dwg?v=7400630205130226867",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.step?v=11140766533500008527",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.skp?v=16915445257108381110",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858954002745",
+    "pattern": "Courtyard",
+    "patternSlug": "courtyard",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Courtyard Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "An angular, open pattern adds definition and depth to a repeated screen.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.4 lbs"
+    },
+    "images": [
+      "/images/catalog/courtyard-small-grey-1.webp",
+      "/images/catalog/courtyard-small-grey-2.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.pdf?v=12705522255252311541",
+        "label": "Dimensioned Drawing",
+        "format": "PDF"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.dwg?v=7400630205130226867",
+        "label": "CAD Drawing",
+        "format": "DWG"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.step?v=11140766533500008527",
+        "label": "3D Model",
+        "format": "STEP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB_COURTYARD_SM.skp?v=16915445257108381110",
+        "label": "SketchUp Model",
+        "format": "SKP"
+      },
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9660434940217",
+    "pattern": "Three Pane",
+    "patternSlug": "three-pane",
+    "variantSlug": "small-white",
+    "title": "Small White Three Pane Breeze Block",
+    "size": "Small",
+    "finish": "White",
+    "description": "Three openings divide each block into a linear pattern with a clear directional rhythm.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.4 lbs"
+    },
+    "images": [
+      "/images/catalog/three-pane-small-white-1.webp",
+      "/images/catalog/three-pane-small-white-2.webp",
+      "/images/catalog/three-pane-small-white-3.webp",
+      "/images/catalog/three-pane-small-white-4.webp",
+      "/images/catalog/three-pane-small-white-5.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "9858956263737",
+    "pattern": "Three Pane",
+    "patternSlug": "three-pane",
+    "variantSlug": "small-grey",
+    "title": "Small Grey Three Pane Breeze Block",
+    "size": "Small",
+    "finish": "Grey",
+    "description": "Three openings divide each block into a linear pattern with a clear directional rhythm.",
+    "specs": {
+      "Width": "190 mm / 7.48 in",
+      "Height": "190 mm / 7.48 in",
+      "Depth": "65 mm / 2.56 in",
+      "Weight": "6.4 lbs"
+    },
+    "images": [
+      "/images/catalog/three-pane-small-grey-1.webp",
+      "/images/catalog/three-pane-small-grey-2.webp",
+      "/images/catalog/three-pane-small-grey-3.webp"
+    ],
+    "documents": [
+      {
+        "url": "https://breezeblock.ca/cdn/shop/files/BB-SPEC-190-2026-08.pdf?v=10210402917809753816",
+        "label": "Specification Sheet",
+        "format": "PDF"
+      }
+    ]
+  }
+]

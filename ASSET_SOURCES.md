@@ -9,3 +9,9 @@ The user identified https://breezeblock.ca as the brand and product reference on
 - `logo.png`: https://breezeblock.ca/cdn/shop/files/2025-Feb3-Logo.png?v=1738611432&width=600 — reference asset only; reads Canada, so not used as a US logo.
 
 The US wordmark and palette are a proposed design direction, not a claim that a new corporate identity has been approved. Small CSS pattern studies are decorative, not product specifications. Final US asset rights and installation claims remain a public-release check.
+
+## Full catalogue import — November 1, 2026
+
+Imported all 24 published products from the public products feed, with page 2 verified empty. The source catalogue has eight patterns and 24 size/finish combinations. `data/catalog-provenance.json` maps all original product IDs, URLs and image sources to US routes. `data/catalog.json` stores the normalized public catalogue.
+
+90 product images are hosted locally as WebP. Dimensions and per-block weights come from the rendered Dimensions & Weight table, not the variant shipping-weight field (which contains inconsistencies for some products). Inch values are calculated from the metric dimensions. 92 product-level document links point to existing technical references; repeated documents across finishes are intentional. No prices, source inventory counts, case-size assumptions or source checkout controls are imported. Product descriptions are concise pattern descriptions written for this site.
