@@ -6,7 +6,7 @@
 - SQLite queue tests pass for acceptance, duplicates, concurrency, retries, permanent errors, disabled configuration, expired idempotency window and lease recovery. No email sent by these tests.
 - Production build passes. Full local 15-page and enquiry HTTP smoke suite passes with notifications disabled.
 - Request bodies are now consumed with a 16,000-byte streaming limit before early rejections; this prevents local edge-proxy request-stream failures that interrupted subsequent submissions.
-- Authenticated retry endpoint is implemented; no unattended retry caller has been configured. See NOTIFICATIONS.md for activation steps.
+- Authenticated retry endpoint access and persisted processing verified on the deployed Site. An hourly Sites retry schedule is saved and enabled, skipping delivery while notifications are disabled. The launch-test email was rejected by Resend because the domain is still partially verified; sending remains disabled. Successful email delivery and a scheduled run are not yet verified. See NOTIFICATIONS.md for activation steps.
 
 ## Original build verification
 
