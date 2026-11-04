@@ -1,5 +1,15 @@
 # Verification — November 1, 2026
 
+## Enquiry notification preparation — November 4, 2026
+
+- Published Resend enquiry template and domain-restricted sending key configured in Sites. Sending remains disabled pending DNS verification and a real delivery test.
+- SQLite queue tests pass for acceptance, duplicates, concurrency, retries, permanent errors, disabled configuration, expired idempotency window and lease recovery. No email sent by these tests.
+- Production build passes. Full local 15-page and enquiry HTTP smoke suite passes with notifications disabled.
+- Request bodies are now consumed with a 16,000-byte streaming limit before early rejections; this prevents local edge-proxy request-stream failures that interrupted subsequent submissions.
+- Authenticated retry endpoint is implemented; no unattended retry caller has been configured. See NOTIFICATIONS.md for activation steps.
+
+## Original build verification
+
 - TypeScript `tsc --noEmit`: passed.
 - Production build: passed with final imagery/content during publication packaging.
 - Local HTTP smoke suite: 15 routes return 200 and include unique titles, descriptions, canonical tags, h1 and preview noindex.

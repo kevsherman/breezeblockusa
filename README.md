@@ -35,7 +35,7 @@ See [TECHNICAL_ROADMAP.md](TECHNICAL_ROADMAP.md) for priorities, exact public-la
 - `app/api/quotes/route.ts`: durable enquiry endpoint.
 - `db/schema.ts` and `drizzle/`: schema and versioned migrations.
 
-All enquiries are saved in D1. `notification_status = pending` does not trigger an email: mail/CRM delivery is a public-launch dependency. Owner-only Sites database tools can inspect the queue during review. There is no public listing endpoint. The privacy notice is a preview draft pending the actual legal seller and operational policy.
+All enquiries are saved in D1. Resend notifications to `info@breezeblock.ca` are implemented but initially disabled pending sending-domain verification and end-to-end testing. See [NOTIFICATIONS.md](NOTIFICATIONS.md) for configuration, delivery state and the remaining unattended-retry setup. CRM delivery is still a public-launch dependency. Owner-only Sites database tools can inspect the queue during review. There is no public listing endpoint. The privacy notice is a preview draft pending the actual legal seller and operational policy.
 
 Do not expose this preview as a public acquisition site merely by flipping `publicLaunch`. Finish the launch checklist and verify domain access, email/CRM delivery and policy content first. Never commit secrets or test database state.
 
