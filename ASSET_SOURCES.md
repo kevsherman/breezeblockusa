@@ -15,3 +15,7 @@ The US wordmark and palette are a proposed design direction, not a claim that a 
 Imported all 24 published products from the public products feed, with page 2 verified empty. The source catalogue has eight patterns and 24 size/finish combinations. `data/catalog-provenance.json` maps all original product IDs, URLs and image sources to US routes. `data/catalog.json` stores the normalized public catalogue.
 
 90 product images are hosted locally as WebP. Dimensions and per-block weights come from the rendered Dimensions & Weight table, not the variant shipping-weight field (which contains inconsistencies for some products). Inch values are calculated from the metric dimensions. 92 product-level document links point to existing technical references; repeated documents across finishes are intentional. No prices, source inventory counts, case-size assumptions or source checkout controls are imported. Product descriptions are concise pattern descriptions written for this site.
+
+## Design reference — November 4, 2026
+
+ModaConcrete (https://modaconcrete.com/) is the owner's reference for the overall visual style and page structure. The redesign uses existing BreezeBlock brand/catalogue imagery listed above, with fresh site copy and an adapted quote-only navigation. The new inspiration page identifies image-library references separately from documented US case studies. See DESIGN_REFERENCE.md for the design and review scope.

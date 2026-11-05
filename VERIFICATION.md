@@ -1,5 +1,15 @@
 # Verification — November 1, 2026
 
+## ModaConcrete reference redesign — November 4, 2026
+
+- Owner selected overall visual style and page structure. Implemented the new homepage, shared navigation/footer, catalogue, pattern/product presentation, and inspiration page.
+- TypeScript passed. Local HTTP suite passed for 15 core routes and linked pages/assets, including actual enquiry validation, D1 submission, deduplication and throttling. Notifications disabled during local tests.
+- Catalogue suite passed for all 24 products, eight patterns, local images, specification values, schema/metadata, sitemap and prefilled quote URLs.
+- Browser interaction checks passed: collection menu; mobile navigation and search; combined filters, clearing and sorting; image gallery, native dialog, keyboard navigation and focus restoration; format/finish navigation; sample prefill; mocked form error and success states. No mail sent.
+- Automated WCAG 2 A/AA and 2.1 AA checks reported no violations on home, catalogue, product, enquiry and inspiration pages at 1440px and 390px. This is a bounded automated check, not a complete accessibility certification.
+- Overflow checks passed at 360, 390, 768, 1024 and 1440px across representative pages. Desktop and mobile screenshots visually reviewed. Brave/Chromium used; Safari/iOS and field performance are not verified.
+- Existing notification queue tests passed. Site access remains private and indexing remains disabled.
+
 ## Enquiry notification preparation — November 4, 2026
 
 - Published Resend enquiry template and domain-restricted sending key configured in Sites. Sending remains disabled pending DNS verification and a real delivery test.
