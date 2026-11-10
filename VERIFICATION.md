@@ -48,3 +48,7 @@ Local fixtures are not included in the deployment archive. Production D1 is prov
 - TypeScript passed. Production build runs as part of publication packaging.
 - Browser host remains unavailable; filter interactions, gallery buttons and quote-field prefill require visual/browser QA before public launch. The server-rendered catalogue and generated selection URLs were verified over HTTP.
 - Technical downloads are source reference links, not independently validated engineering approvals.
+
+## 9 November 2026 — architectural commerce audit
+
+See SITE_AUDIT.md for findings, implemented fixes and unresolved business dependencies. Final checks passed: TypeScript; all 24 catalogue products; 16-route smoke test with actual local D1 validation/deduplication/throttling; notification queue tests; responsive Brave/Chromium and axe checks on seven page types at 390/1440 pixels; final mobile resource/returns/privacy checks; comparison and URL restoration; estimator-to-enquiry handoff; mocked failure/success; searchable technical library; product PDF print rendering. No real email sent. Site remains private/noindex.

@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 const base=process.env.TEST_ORIGIN||'http://127.0.0.1:5173';
 assert(['127.0.0.1','localhost'].includes(new URL(base).hostname),'Test fixtures must only run locally');
-const paths=['/','/breeze-blocks/','/breeze-blocks/four-leaf/','/breeze-blocks/empress/','/breeze-blocks/square-on-square/','/service-areas/','/service-areas/washington/','/service-areas/idaho/','/service-areas/oregon/','/trade/','/delivery/','/resources/','/guides/planning-a-breeze-block-wall/','/privacy/','/request-a-quote/'];
+const paths=['/','/breeze-blocks/','/breeze-blocks/four-leaf/','/breeze-blocks/empress/','/breeze-blocks/square-on-square/','/service-areas/','/service-areas/washington/','/service-areas/idaho/','/service-areas/oregon/','/trade/','/delivery/','/resources/','/guides/planning-a-breeze-block-wall/','/privacy/','/returns/','/request-a-quote/'];
 const titles=new Set();
 for(const path of paths){const r=await fetch(base+path);assert.equal(r.status,200,path);const html=await r.text();assert.match(html,/<h1[ >]/);assert.match(html,/name="description"/);assert.match(html,/rel="canonical"/);assert.match(html,/noindex/);const title=html.match(/<title>(.*?)<\/title>/)?.[1];assert(title);assert(!titles.has(title),'Unique title '+path);titles.add(title);assert(!/Add to cart|Buy now/i.test(html));
  const links=[...html.matchAll(/(?:href|src)="(\/[^"#?]*)(?:[?#][^"]*)?"/g)].map(m=>m[1]).filter(v=>!v.startsWith('/@')&&!v.startsWith('/node_modules')&&!v.startsWith('/app/')&&!v.startsWith('/components/')&&!v.startsWith('/__'));

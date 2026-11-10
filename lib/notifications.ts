@@ -48,7 +48,7 @@ function resendSender(key: string): Sender {
   const retryHeader = headers?.['retry-after'];
   const seconds = Number(retryHeader);
   return {
-   error: error?.name ?? 'provider_response_missing_id',
+   error: error?.name ?? (status ? `provider_http_${status}` : 'provider_response_missing_id'),
    retryable: !status || status === 429 || status >= 500 || error?.name === 'concurrent_idempotent_requests',
    retryAfterMs: retryHeader ? (Number.isFinite(seconds) ? seconds * 1000 : Math.max(0, Date.parse(retryHeader) - Date.now())) : 0,
   };
