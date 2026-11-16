@@ -31,3 +31,15 @@ html{scroll-padding-top:110px}body{font-size:15px;line-height:1.6}h1,h2,h3{font-
 @media(max-width:600px){.shopping-guide{gap:10px;flex-direction:column;align-items:center}.planner-fields{grid-template-columns:1fr}.comparison .section-heading{align-items:start;flex-direction:column;gap:8px}.product-summary .actions .button{width:100%}.quote-form .button{width:100%}.catalog-image>span{font-size:12px}}
 @media print{.masthead,.site-footer,.skip-link,.product-resources,.catalog-section,.product-summary .actions,.gallery-thumbnails,.gallery-expand,.gallery-modal,.product-planner,.purchase-clarity a{display:none!important}.wrap{width:100%;max-width:none}.product-layout{display:grid;grid-template-columns:40% 1fr;gap:25px}.product-section{padding:0}.product-summary h1{font-size:32px}.product-specs div{break-inside:avoid}.product-reference-details{display:none}.gallery-stage{position:static}.gallery-main{height:auto!important;max-height:360px;object-fit:contain}body{background:white;color:black;font-size:12px}.product-variant-name{font-weight:bold}.product-options{display:none}a{color:black;text-decoration:none}}
 .technical-library{margin-block:32px}.technical-library details{border-bottom:1px solid var(--line);padding:15px 0}.technical-library summary{cursor:pointer;font-size:17px;min-height:44px}.technical-library .text-link{margin-block:15px}.catalog-results{flex-wrap:wrap;gap:15px}.catalog-results [hidden]{display:none}
+
+/* A compact overview replaces the three full-height pattern stories. */
+.collection-overview .editorial-heading{margin-bottom:40px}
+.pattern-overview-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 24px}
+.pattern-overview-card{text-decoration:none;min-width:0}
+.pattern-overview-card>div{background:var(--sand);overflow:hidden}
+.pattern-overview-card img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;mix-blend-mode:multiply;transition:transform .2s}
+.pattern-overview-card:hover img{transform:scale(1.03)}
+.pattern-overview-card h3{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:25px;line-height:1.2;margin:14px 0 0}
+.pattern-overview-card h3 span{font-family:Arial,sans-serif;font-size:14px}
+@media(max-width:600px){.pattern-overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.pattern-overview-card h3{font-size:21px}.collection-overview .editorial-heading{margin-bottom:28px}}
+@media(prefers-reduced-motion:reduce){.pattern-overview-card img{transition:none}}
