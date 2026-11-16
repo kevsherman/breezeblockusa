@@ -14,7 +14,7 @@ The US wordmark and palette are a proposed design direction, not a claim that a 
 
 Imported all 24 published products from the public products feed, with page 2 verified empty. The source catalogue has eight patterns and 24 size/finish combinations. `data/catalog-provenance.json` maps all original product IDs, URLs and image sources to US routes. `data/catalog.json` stores the normalized public catalogue.
 
-90 product images are hosted locally as WebP. Dimensions and per-block weights come from the rendered Dimensions & Weight table, not the variant shipping-weight field (which contains inconsistencies for some products). Inch values are calculated from the metric dimensions. 92 product-level document links point to existing technical references; repeated documents across finishes are intentional. No prices, source inventory counts, case-size assumptions or source checkout controls are imported. Product descriptions are concise pattern descriptions written for this site.
+90 product images are hosted locally as WebP. Dimensions and per-block weights come from the rendered Dimensions & Weight table, not the variant shipping-weight field (which contains inconsistencies for some products). Inch values in the current catalogue are the owner-provided nominal US sizes: large 11.4 × 11.4 × 3.5 in; small 7.5 × 7.5 × 2.5 in. Metric values retain the imported source measurements. 92 product-level document links point to existing technical references; repeated documents across finishes are intentional. No prices, source inventory counts, case-size assumptions or source checkout controls are imported. Product descriptions are concise pattern descriptions written for this site.
 
 ## Design reference — November 4, 2026
 
