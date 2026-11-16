@@ -36,7 +36,7 @@ export async function POST(request:Request){
  let input:unknown;
  try{input=JSON.parse(text);}catch{return response({error:'Please check your form and try again.'},400);}
  const parsed=quoteSchema.safeParse(input);
- if(!parsed.success)return response({error:'Please check the required fields, ZIP, email and any drawing link.'},400);
+ if(!parsed.success)return response({error:'Please check your name, email, message, and any optional details.'},400);
  const data=parsed.data;
  if(data.website)return response({error:'Your submission could not be accepted.'},400);
  if(!env.DB)return response({error:'We could not save your enquiry. Please try again later. Your details have not been submitted.'},503);

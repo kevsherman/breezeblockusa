@@ -1,5 +1,11 @@
 import QuoteForm from '@/components/quote-form';
-import { BlockWall } from '@/components/site';
 import { pageMetadata } from '@/lib/site';
-export const metadata={...pageMetadata('request-a-quote','Request a Breeze Block Project Quote','Tell us about your Northwest breeze block project. Request product options, technical information and a project-specific delivery quote.'),robots:{index:false,follow:true}};
-export default function QuotePage(){return <section className="wrap quote-layout"><aside><p className="eyebrow">Every good space starts somewhere</p><h1>Let’s talk<br/>about yours.</h1><p className="intro">A few details help us understand the idea, the material and the journey to your site.</p><p>Share what you know. We can work through the rest together. For samples or technical files, choose the relevant option in the form.</p><p className="fine-print">We request delivery details because site access and unloading affect freight options. This form does not place an order.</p><p>Prefer email? <a href="mailto:info@breezeblock.ca?subject=US%20project%20enquiry">info@breezeblock.ca</a></p><div className="mini-pattern"><BlockWall/></div></aside><QuoteForm/></section>}
+
+export const metadata = { ...pageMetadata('request-a-quote', 'Contact BreezeBlock USA', 'Questions about breeze blocks, samples, or a project? Send BreezeBlock USA a message.'), robots: { index: false, follow: true } };
+
+export default function QuotePage() {
+ return <section className="wrap quote-layout simple-contact-page">
+  <div className="contact-page-intro"><p className="eyebrow">Contact us</p><h1>Let’s talk about<br/><em>your project.</em></h1><p>Tell us what you have in mind, or just ask a question. We’ll help you find the next step.</p><p>Prefer email? <a href="mailto:info@breezeblock.ca?subject=US%20project%20enquiry">info@breezeblock.ca</a></p></div>
+  <QuoteForm/>
+ </section>;
+}

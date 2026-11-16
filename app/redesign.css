@@ -84,3 +84,19 @@ html{scroll-padding-top:110px}body{font-size:15px;line-height:1.6}h1,h2,h3{font-
 .landing-hero-image{animation:hero-reveal 9s cubic-bezier(.22,.61,.36,1) both;transform-origin:55% 48%}
 @keyframes hero-reveal{from{transform:scale(1.16) translate3d(-1.5%,1%,0)}to{transform:scale(1.02) translate3d(0,0,0)}}
 @media(prefers-reduced-motion:reduce){.landing-hero-image{animation:none;transform:none}}
+
+/* A short, approachable contact page. */
+.simple-contact-page{display:block;max-width:760px;padding-block:70px 100px}
+.contact-page-intro{margin-bottom:34px}
+.contact-page-intro h1{font-size:clamp(48px,5vw,72px);line-height:1.08;margin:0 0 22px}
+.contact-page-intro>p:not(.eyebrow){font-size:16px;line-height:1.7;margin:0 0 10px;max-width:580px}
+.simple-contact-form{padding:36px}
+.simple-contact-form .fields{grid-template-columns:1fr 1fr;gap:22px}
+.simple-contact-form .field.full{grid-column:1/-1}
+.simple-contact-form .field{font-size:13px}
+.simple-contact-form .field textarea{resize:vertical;min-height:130px}
+.simple-contact-form .check-label{margin-block:28px 24px}
+.simple-contact-form .optional-label{font-weight:400;color:var(--muted)}
+.simple-contact-form .button{width:100%}
+.contact-context{margin:0 0 24px;font-size:14px}
+@media(max-width:600px){.simple-contact-page{padding-block:42px 65px}.contact-page-intro h1{font-size:46px}.simple-contact-form{padding:24px 20px}.simple-contact-form .fields{grid-template-columns:1fr;gap:18px}.simple-contact-form .field.full{grid-column:auto}}
