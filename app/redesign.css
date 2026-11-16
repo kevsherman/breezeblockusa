@@ -80,7 +80,7 @@ html{scroll-padding-top:110px}body{font-size:15px;line-height:1.6}h1,h2,h3{font-
 @media(max-width:1000px){.landing-hero h1{font-size:clamp(46px,6.4vw,68px);max-width:850px}}
 @media(max-width:700px){.landing-hero h1{font-size:clamp(38px,8.6vw,52px);max-width:600px;line-height:1.12}}
 @media(max-width:380px){.landing-hero h1{font-size:38px}}
-/* Gentle movement in the hero image, with a static option for reduced motion. */
-.landing-hero-image{animation:hero-drift 28s ease-in-out infinite alternate;transform-origin:center center}
-@keyframes hero-drift{from{transform:scale(1.035) translate3d(-.4%,0,0)}to{transform:scale(1.075) translate3d(.4%,-.5%,0)}}
+/* A visible camera move that settles, with no ongoing motion behind the text. */
+.landing-hero-image{animation:hero-reveal 9s cubic-bezier(.22,.61,.36,1) both;transform-origin:55% 48%}
+@keyframes hero-reveal{from{transform:scale(1.16) translate3d(-1.5%,1%,0)}to{transform:scale(1.02) translate3d(0,0,0)}}
 @media(prefers-reduced-motion:reduce){.landing-hero-image{animation:none;transform:none}}
