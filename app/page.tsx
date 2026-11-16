@@ -32,10 +32,11 @@ export default function Home() {
    <a className="button" href="/trade/">For the trade <span aria-hidden="true">↗</span></a>
   </div></section>
 
-  <section className="home-craft" aria-labelledby="craft-title"><div className="wrap">
-   <div className="editorial-heading">
-    <div><p className="eyebrow">The production method</p><h2 id="craft-title">Individually<br/><em>handcrafted.</em></h2></div>
-    <div className="editorial-intro"><p>Each block starts with a fine blend of cement and sand, shaped by hand with the help of hydraulic presses.</p><p>The process produces crisp edges and a refined finish on both faces, giving the material the same care from either side.</p></div>
+  <section className="home-craft" aria-labelledby="craft-title"><div className="wrap home-craft-layout">
+   <div className="home-craft-copy">
+    <p className="eyebrow">The production method</p><h2 id="craft-title">Individually<br/><em>handcrafted.</em></h2>
+    <p>Each block starts with a fine blend of cement and sand, shaped by hand with the help of hydraulic presses.</p>
+    <p>The process produces crisp edges and a refined finish on both faces, giving the material the same care from either side.</p>
    </div>
    <figure className="home-craft-image"><img src="/images/handcrafted.webp" alt="A gloved hand filling a breeze block mould with fine cement and sand aggregate" width="1500" height="1081" loading="lazy"/><figcaption>Fine aggregate. Hydraulic pressing. Care in every block.</figcaption></figure>
   </div></section>
