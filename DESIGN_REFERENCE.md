@@ -9,9 +9,11 @@ Reviewed the public homepage, collection presentation, underlying design tokens,
 
 ## Design applied
 
-A warm mineral palette, serif display typography, restrained navigation, large photography, alternating collection stories, a trade section, selected products, material information, and a dedicated project-support area. BreezeBlock's catalogue and quote workflow provide the content and actions.
+The November 16 homepage follows the owner's simplified ModaConcrete reference: hero image, text introduction, one image-left/copy-right collection section, trade strip, handcrafted production, and a short contact section. The repeated collection features, product grids, inspiration banner, detailed project-support panel, and homepage FAQ are omitted. Eight patterns remain available through the main collection navigation and the collection link.
 
-The homepage now progresses from design inspiration to pattern exploration, trade support, product details, material planning, and a project enquiry. Eight patterns remain accessible from the collection menu and pattern index. The catalogue includes search, combined pattern/format/finish filters, sort controls, and a mobile filter panel. Product pages provide format and finish links, galleries with an accessible image viewer, specification tables, sample enquiries, technical references, and related formats.
+The production section uses BreezeBlock Canada's actual material photograph and paraphrased manufacturing description, reviewed at https://breezeblock.ca/ on November 16, 2026. Trade copy describes existing enquiry support without importing ModaConcrete's discount, display-program, or response-time promises.
+
+A warm mineral palette, serif display typography, restrained navigation, and large photography preserve the established visual direction. The catalogue includes search, combined pattern/format/finish filters, sort controls, and a mobile filter panel. Product pages provide format and finish links, galleries with an accessible image viewer, specification tables, sample enquiries, technical references, and related formats.
 
 `/inspiration/` gathers existing brand image references; its captions distinguish these from independently documented US case studies. Asset provenance remains in ASSET_SOURCES.md. No new competitor assets, prices, facility claims, lead-time promises, or engineering claims are introduced.
 

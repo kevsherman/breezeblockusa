@@ -1,22 +1,48 @@
 import { pageMetadata } from '@/lib/site';
-import { products, patterns } from '@/lib/catalog';
-export const metadata = pageMetadata('', 'Architectural Breeze Blocks for the Northwest', 'Explore eight architectural concrete breeze block patterns. Discover white and grey finishes, project inspiration, samples and quoting for Northwest projects.');
-const collection = patterns.map(pattern => ({ ...pattern, product: products.find(p => p.patternSlug === pattern.slug && p.finish === 'White')! }));
+export const metadata = pageMetadata('', 'Architectural Breeze Blocks for the Northwest', 'Explore eight handcrafted architectural concrete breeze block patterns. White and grey finishes, trade support and project quoting for the Pacific Northwest.');
+
 export default function Home() {
  return <>
   <section className="landing-hero" aria-labelledby="hero-title"><img className="landing-hero-image" src="/images/hero.webp" alt="Brand inspiration: a breeze block screen framing an outdoor space at dusk" width="1400" height="1400" fetchPriority="high"/><div className="landing-hero-shade"/><div className="wrap landing-hero-copy"><p className="eyebrow">Architectural concrete / Pacific Northwest</p><h1 id="hero-title">Breeze blocks.<br/><em>Open possibilities.</em></h1><p>Light, air, and a little more character.<br/>Concrete patterns for spaces that feel different.</p><a className="button" href="/breeze-blocks/">Explore the collection <span aria-hidden="true">↗</span></a></div><span className="hero-image-note">Brand design inspiration</span><a className="hero-scroll" href="#the-collection" aria-label="Discover the collection below"><span>Discover</span><span aria-hidden="true">↓</span></a></section>
-  <div className="shopping-guide"><a href="/breeze-blocks/">8 patterns · 24 product options</a><a href="/request-a-quote/?interest=samples">Explore sample options ↗</a><a href="/delivery/">Project pricing & Northwest delivery ↗</a></div>
-  <section className="wrap collection-story collection-overview" id="the-collection" aria-labelledby="collection-title">
+
+  <section className="wrap home-introduction" id="the-collection" aria-labelledby="introduction-title">
+   <div className="editorial-heading">
+    <div><p className="eyebrow">Architectural breeze blocks</p><h2 id="introduction-title">Solid material.<br/><em>Room for possibility.</em></h2></div>
+    <div className="editorial-intro"><p>A wall can do more than divide a space. Breeze blocks bring texture, filtered light, and a sense of connection.</p><p>Rooted in mid-century design, made for spaces today. Explore eight patterns for screens, partitions, and architectural details with character.</p></div>
+   </div>
+  </section>
+
+  <section className="wrap home-collection" aria-labelledby="collection-title">
    <div className="collection-feature collection-introduction">
     <a className="collection-feature-image" href="/breeze-blocks/"><img src="/images/catalog/four-leaf-large-grey-3.webp" alt="Four Leaf concrete blocks arranged in a repeating wall pattern" width="800" height="1000" loading="lazy"/><span className="image-wordmark">BreezeBlock / The collection</span></a>
-    <div className="collection-feature-copy"><p className="eyebrow">The pattern collection</p><h2 id="collection-title">Pattern is only<br/><em>the beginning.</em></h2><p>A wall can do more than divide a space. Breeze blocks bring texture, filtered light, and a sense of connection.</p><p>Explore eight patterns, from soft curves to clean geometry. Find the look that makes your space.</p><div className="feature-facts"><div><span>Formats</span><strong>Small + large</strong></div><div><span>Finishes</span><strong><i className="colour-dot white"/><i className="colour-dot grey"/> White + grey</strong></div></div><a className="text-link" href="/breeze-blocks/">Explore the collection <span aria-hidden="true">↗</span></a></div>
+    <div className="collection-feature-copy">
+     <p className="eyebrow">The pattern collection</p><h2 id="collection-title">A little separation.<br/><em>A stronger connection.</em></h2>
+     <p>From the soft curves of Four Leaf to the clean geometry of Square on Square. Find a pattern that shapes the light and gives your space a rhythm of its own.</p>
+     <div className="feature-facts"><div><span>Patterns</span><strong>Eight designs</strong></div><div><span>Formats</span><strong>Small + large</strong></div><div><span>Finishes</span><strong><i className="colour-dot white"/><i className="colour-dot grey"/> White + grey</strong></div></div>
+     <a className="text-link" href="/breeze-blocks/">Explore all eight patterns <span aria-hidden="true">↗</span></a>
+    </div>
    </div>
-   <div className="pattern-overview-grid">{collection.map(p => <a className="pattern-overview-card" key={p.slug} href={`/breeze-blocks/${p.slug}/`}><div><img src={p.product.images[0]} alt="" width="600" height="600" loading="lazy"/></div><h3>{p.name}<span aria-hidden="true">↗</span></h3></a>)}</div>
   </section>
-  <section className="trade-strip"><div className="wrap trade-strip-inner"><h2>For the people<br/><em>shaping spaces.</em></h2><div><strong>Material selection</strong><p>Patterns, formats, and finishes.</p></div><div><strong>Sample enquiries</strong><p>See what’s available for your project.</p></div><div><strong>Technical references</strong><p>Start a more informed conversation.</p></div><a className="button" href="/trade/">For the trade <span aria-hidden="true">↗</span></a></div></section>
-  <section className="material-band"><div className="wrap material-band-inner"><div><p className="eyebrow">Solid material. Considered details.</p><h2>A different kind<br/><em>of building block.</em></h2></div><div className="material-points"><article><span>01</span><div><h3>Explore the pattern.</h3><p>Compare the shape of each opening and the way a single block repeats across a wall.</p></div></article><article><span>02</span><div><h3>Consider the scale.</h3><p>Use published dimensions to plan the composition, then confirm joints, supports, and quantities with your project team.</p></div></article><article><span>03</span><div><h3>Bring it into focus.</h3><p>Ask about samples, technical references, and the product details that matter for your application.</p></div></article></div></div></section>
-  <section className="inspiration-banner"><img src="/images/catalog/circle-small-grey-5.webp" alt="Circle breeze blocks used as an interior screen in the brand image library" width="800" height="1000" loading="lazy"/><div className="wrap"><p className="eyebrow">Material in context</p><h2>A little separation.<br/><em>A stronger connection.</em></h2><a className="button button-light" href="/inspiration/">Explore design inspiration <span aria-hidden="true">↗</span></a><p className="image-caption">Brand image library / location and project details unverified</p></div></section>
-  <section className="wrap project-support"><div><p className="eyebrow">Your project, in perspective</p><h2>Let’s make<br/><em>room for your idea.</em></h2><p className="intro">From a first sketch to a clearer material brief, start with what you know. We’ll work through the selection and delivery questions together.</p><ol className="project-steps"><li><span>01</span><h3>Share the idea.</h3><p>Pattern, wall area, application, and delivery ZIP.</p></li><li><span>02</span><h3>Find the fit.</h3><p>Review formats, finishes, and the details to confirm.</p></li><li><span>03</span><h3>Build the brief.</h3><p>Request a project-specific product and delivery quote.</p></li></ol><div className="actions"><a className="button" href="/request-a-quote/">Request a project quote <span aria-hidden="true">↗</span></a><a className="text-link" href="/request-a-quote/?interest=samples">Ask about samples ↗</a></div></div><aside className="project-support-panel"><p className="eyebrow">A useful place to start</p><h3>The whole project.<br/><em>Not just the pattern.</em></h3>{[['Product selection','Dimensions, finish preferences, and quantities.','/breeze-blocks/'],['Technical questions','Published references and application questions.','/resources/'],['Delivery planning','Destination, receiving access, and unloading.','/delivery/'],['Northwest projects','Washington, Idaho, Oregon, and select Montana enquiries.','/service-areas/']].map(([title,description,href]) => <a key={title} href={href}><span><strong>{title}</strong><span>{description}</span></span><span aria-hidden="true">↗</span></a>)}</aside></section>
-  <section className="wrap home-faq"><div><p className="eyebrow">A few good questions</p><h2>Before the<br/><em>first block.</em></h2><a className="text-link" href="/guides/planning-a-breeze-block-wall/">Read the planning guide ↗</a></div><div>{[['How do I order?','Start with a project enquiry. Product availability, quantities, and delivery are confirmed in a written quote before an order.'],['Can I see a sample?','Tell us which pattern and finish you are considering. We’ll review sample availability and delivery options for your project.'],['Do you deliver to my area?','We review Washington, Idaho, and Oregon projects, with select Montana destinations considered individually. Freight and site access are confirmed for each enquiry.'],['What should I check for an exterior wall?','Suitability depends on the product, exposure, and wall design. Confirm documented application limits and have supports, reinforcement, moisture, freeze–thaw, wind, and seismic requirements reviewed for your project.']].map(([q,a]) => <details key={q}><summary>{q}<span aria-hidden="true">+</span></summary><p>{a}</p></details>)}</div></section>
+
+  <section className="trade-strip home-trade" aria-labelledby="trade-title"><div className="wrap trade-strip-inner">
+   <h2 id="trade-title">For architects,<br/><em>designers, and builders.</em></h2>
+   <div><strong>Project pricing</strong><p>Quotes for your scope and quantities.</p></div>
+   <div><strong>Sample enquiries</strong><p>Get a feel for the material.</p></div>
+   <div><strong>Technical support</strong><p>Dimensions and product references.</p></div>
+   <a className="button" href="/trade/">For the trade <span aria-hidden="true">↗</span></a>
+  </div></section>
+
+  <section className="home-craft" aria-labelledby="craft-title"><div className="wrap">
+   <div className="editorial-heading">
+    <div><p className="eyebrow">The production method</p><h2 id="craft-title">Individually<br/><em>handcrafted.</em></h2></div>
+    <div className="editorial-intro"><p>Each block starts with a fine blend of cement and sand, shaped by hand with the help of hydraulic presses.</p><p>The process produces crisp edges and a refined finish on both faces, giving the material the same care from either side.</p></div>
+   </div>
+   <figure className="home-craft-image"><img src="/images/handcrafted.webp" alt="A gloved hand filling a breeze block mould with fine cement and sand aggregate" width="1500" height="1081" loading="lazy"/><figcaption>Fine aggregate. Hydraulic pressing. Care in every block.</figcaption></figure>
+  </div></section>
+
+  <section className="wrap home-contact" aria-labelledby="contact-title">
+   <div><p className="eyebrow">Get in touch</p><h2 id="contact-title">Let’s make room<br/><em>for your idea.</em></h2></div>
+   <div className="home-contact-copy"><p>Have a pattern in mind, a drawing to share, or a question about where to start? Tell us about your project. We’ll help with selection, samples, and delivery.</p><div className="actions"><a className="button" href="/request-a-quote/">Contact us <span aria-hidden="true">↗</span></a><a className="text-link" href="mailto:info@breezeblock.ca">info@breezeblock.ca</a></div></div>
+  </section>
  </>;
 }

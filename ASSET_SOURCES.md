@@ -25,3 +25,7 @@ ModaConcrete (https://modaconcrete.com/) is the owner's reference for the overal
 `public/images/catalog/four-leaf-large-grey-2-cutout.webp` replaces the Large Grey Four Leaf profile image in the catalogue. Created with the built-in imagegen tool from `four-leaf-large-grey-2.webp`; original retained. Exported as WebP with alpha at 926 × 1000.
 
 Prompt: “Use case: background-extraction. Edit target: supplied Large Grey Four Leaf concrete breeze block product photograph. Remove only the grey studio backdrop and floor, including visible background through the block's four leaf openings. Produce a genuine transparent alpha background. Preserve the exact block geometry, perspective, framing, grey concrete colour, surface texture, edges and internal shading. No redesign, no extra objects, no ground shadow, no text. Keep the complete block at the same scale and position.”
+
+## Handcrafted production — November 16, 2026
+
+`public/images/handcrafted.webp` is the production photograph from the material section of https://breezeblock.ca/, downloaded from https://breezeblock.ca/cdn/shop/files/z5197604405692_9941c1ad0407873d9883c593e327f95e.jpg?v=1784741142&width=1500 and converted to WebP. It shows a worker filling a mould. Homepage production copy paraphrases that site's description of fine cement/sand aggregate, hand production with hydraulic presses, and refined edges and faces. No ModaConcrete production specifications or facility claims are used.
