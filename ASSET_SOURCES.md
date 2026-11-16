@@ -19,3 +19,9 @@ Imported all 24 published products from the public products feed, with page 2 ve
 ## Design reference — November 4, 2026
 
 ModaConcrete (https://modaconcrete.com/) is the owner's reference for the overall visual style and page structure. The redesign uses existing BreezeBlock brand/catalogue imagery listed above, with fresh site copy and an adapted quote-only navigation. The new inspiration page identifies image-library references separately from documented US case studies. See DESIGN_REFERENCE.md for the design and review scope.
+
+## Four Leaf background removal — November 16, 2026
+
+`public/images/catalog/four-leaf-large-grey-2-cutout.webp` replaces the Large Grey Four Leaf profile image in the catalogue. Created with the built-in imagegen tool from `four-leaf-large-grey-2.webp`; original retained. Exported as WebP with alpha at 926 × 1000.
+
+Prompt: “Use case: background-extraction. Edit target: supplied Large Grey Four Leaf concrete breeze block product photograph. Remove only the grey studio backdrop and floor, including visible background through the block's four leaf openings. Produce a genuine transparent alpha background. Preserve the exact block geometry, perspective, framing, grey concrete colour, surface texture, edges and internal shading. No redesign, no extra objects, no ground shadow, no text. Keep the complete block at the same scale and position.”
