@@ -1,5 +1,8 @@
 import { pageMetadata } from '@/lib/site';
+import { patterns, products } from '@/lib/catalog';
 export const metadata = pageMetadata('', 'Architectural Breeze Blocks for the Northwest', 'Explore eight handcrafted architectural concrete breeze block patterns. White and grey finishes, trade support and project quoting for the Pacific Northwest.');
+
+const patternCards = patterns.map(pattern => ({ ...pattern, image: products.find(product => product.patternSlug === pattern.slug && product.finish === 'White')?.images[1] }));
 
 export default function Home() {
  return <>
@@ -31,6 +34,11 @@ export default function Home() {
    <div><strong>Technical support</strong><p>Dimensions and product references.</p></div>
    <a className="button" href="/trade/">For the trade <span aria-hidden="true">↗</span></a>
   </div></section>
+
+  <section className="wrap home-patterns" aria-labelledby="patterns-title">
+   <div className="section-heading"><div><p className="eyebrow">The catalogue</p><h2 id="patterns-title">Patterns.</h2></div><a className="text-link" href="/breeze-blocks/">View the catalogue <span aria-hidden="true">↗</span></a></div>
+   <div className="pattern-overview-grid">{patternCards.map(pattern => <a className="pattern-overview-card" key={pattern.slug} href={`/breeze-blocks/${pattern.slug}/`}><div><img src={pattern.image} alt="" width="600" height="600" loading="lazy"/></div><h3>{pattern.name}<span aria-hidden="true">↗</span></h3></a>)}</div>
+  </section>
 
   <section className="home-craft" aria-labelledby="craft-title"><div className="wrap home-craft-layout">
    <div className="home-craft-copy">
