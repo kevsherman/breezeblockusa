@@ -29,3 +29,7 @@ Prompt: “Use case: background-extraction. Edit target: supplied Large Grey Fou
 ## Handcrafted production — November 16, 2026
 
 `public/images/handcrafted.webp` is the production photograph from the material section of https://breezeblock.ca/, downloaded from https://breezeblock.ca/cdn/shop/files/z5197604405692_9941c1ad0407873d9883c593e327f95e.jpg?v=1784741142&width=1500 and converted to WebP. It shows a worker filling a mould. Homepage production copy paraphrases that site's description of fine cement/sand aggregate, hand production with hydraulic presses, and refined edges and faces. No ModaConcrete production specifications or facility claims are used.
+
+## Homepage forest concept — November 16, 2026
+
+`public/images/hero-forest-concept.webp` was converted from the Gemini-generated image supplied by the owner (`Gemini_Generated_Image_fz6f4ufz6f4ufz6f.jpeg`). It is a concept rendering, not a documented installed project. The hero labels it “Concept image.”
