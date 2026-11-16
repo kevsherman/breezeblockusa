@@ -34,7 +34,7 @@ export default function Navigation() {
  }, []);
  return <header className="masthead" ref={header}><div className="masthead-inner"><Wordmark/>
    <nav className="desktop-nav" aria-label="Main navigation">{navigationLinks.map(link => <a key={link.href} href={link.href}>{link.label}</a>)}</nav>
-   <button className="menu-toggle" ref={toggle} type="button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? 'Close navigation' : 'Open navigation'}><span/><span/></button>
+   <div className="masthead-actions"><a className="search-link" href="/breeze-blocks/#catalogue-search" aria-label="Search breeze blocks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg></a><a className="masthead-quote" href="/request-a-quote/">Request a quote <span aria-hidden="true">↗</span></a><button className="menu-toggle" ref={toggle} type="button" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? 'Close navigation' : 'Open navigation'}><span/><span/></button></div>
   </div>
   <nav className="mobile-navigation" id="mobile-navigation" aria-label="Mobile navigation" hidden={!open} onClick={event => { if ((event.target as HTMLElement).closest('a')) setOpen(false); }}>{navigationLinks.map(link => <a key={link.href} href={link.href}>{link.label}<span aria-hidden="true">↗</span></a>)}</nav>
  </header>;
