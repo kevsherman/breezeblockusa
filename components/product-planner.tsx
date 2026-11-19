@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { type CatalogProduct, quotePath } from '@/lib/catalog';
 export default function ProductPlanner({product:p}:{product:CatalogProduct}){
  const [area,setArea]=useState(''),[joint,setJoint]=useState('0.375'),[extra,setExtra]=useState('10');
- const width=parseFloat(p.specs.Width)/25.4,height=parseFloat(p.specs.Height)/25.4;
+ const width=parseFloat(p.specs.Width),height=parseFloat(p.specs.Height);
  const valid=area!==''&&joint!==''&&extra!==''&&Number(area)>0&&Number(area)<=100000&&Number(joint)>=0&&Number(joint)<=2&&Number(extra)>=0&&Number(extra)<=50;
  const count=valid?Math.ceil(Number(area)*144/((width+Number(joint))*(height+Number(joint)))*(1+Number(extra)/100)):0;
  const quantity=`${count} blocks estimated for ${area} sq ft; ${joint} in joint; ${extra}% allowance`;
