@@ -6,7 +6,7 @@ const patternCards = patterns.map(pattern => ({ ...pattern, image: products.find
 
 export default function Home() {
  return <>
-  <section className="landing-hero" aria-labelledby="hero-title"><img className="landing-hero-image" src="/images/hero-forest-concept.webp" alt="Concept rendering of a breeze block screen beside a wooded Pacific Northwest home" width="1376" height="768" fetchPriority="high"/><div className="landing-hero-shade"/><div className="wrap landing-hero-copy"><h1 id="hero-title">Architectural Breeze Blocks<br/><em>for the Pacific Northwest</em></h1><p>Serving Washington, Oregon, Idaho, and Montana</p><a className="button" href="/breeze-blocks/">Explore the collection <span aria-hidden="true">↗</span></a></div><span className="hero-image-note">Concept image</span><a className="hero-scroll" href="#the-collection" aria-label="Discover the collection below"><span>Discover</span><span aria-hidden="true">↓</span></a></section>
+  <section className="landing-hero" aria-labelledby="hero-title"><img className="landing-hero-image" src="/images/hero-forest-concept.webp" alt="Concept rendering of a breeze block screen beside a wooded Pacific Northwest home" width="1376" height="768" fetchPriority="high"/><div className="landing-hero-shade"/><div className="wrap landing-hero-copy"><h1 id="hero-title">Architectural Breeze Blocks<br/>for the Pacific Northwest</h1><p>Serving Washington, Oregon, Idaho, and Montana</p><a className="button" href="/breeze-blocks/">Explore the collection <span aria-hidden="true">↗</span></a></div><span className="hero-image-note">Concept image</span><a className="hero-scroll" href="#the-collection" aria-label="Discover the collection below"><span>Discover</span><span aria-hidden="true">↓</span></a></section>
 
   <section className="wrap home-introduction" id="the-collection" aria-labelledby="introduction-title">
    <div className="editorial-heading">
@@ -28,7 +28,7 @@ export default function Home() {
   </section>
 
   <section className="trade-strip home-trade" aria-labelledby="trade-title"><div className="wrap trade-strip-inner">
-   <h2 id="trade-title">For architects,<br/><em>designers, and builders.</em></h2>
+   <h2 id="trade-title">For architects,<br/>designers, and builders.</h2>
    <div><strong>Project pricing</strong><p>Quotes for your scope and quantities.</p></div>
    <div><strong>Sample enquiries</strong><p>Get a feel for the material.</p></div>
    <div><strong>Technical support</strong><p>Dimensions and product references.</p></div>
@@ -42,7 +42,7 @@ export default function Home() {
 
   <section className="home-craft" aria-labelledby="craft-title"><div className="wrap home-craft-layout">
    <div className="home-craft-copy">
-    <p className="eyebrow">The production method</p><h2 id="craft-title">Individually<br/><em>handcrafted.</em></h2>
+    <p className="eyebrow">The production method</p><h2 id="craft-title">Individually<br/>handcrafted.</h2>
     <p>Each block starts with a fine blend of cement and sand, shaped by hand with the help of hydraulic presses.</p>
     <p>The process produces crisp edges and a refined finish on both faces, giving the material the same care from either side.</p>
    </div>
@@ -50,7 +50,7 @@ export default function Home() {
   </div></section>
 
   <section className="wrap home-contact" aria-labelledby="contact-title">
-   <div><p className="eyebrow">Get in touch</p><h2 id="contact-title">Let’s make room<br/><em>for your idea.</em></h2></div>
+   <div><p className="eyebrow">Get in touch</p><h2 id="contact-title">Let’s make room<br/>for your idea.</h2></div>
    <div className="home-contact-copy"><p>Have a pattern in mind, a drawing to share, or a question about where to start? Tell us about your project. We’ll help with selection, samples, and delivery.</p><div className="actions"><a className="button" href="/request-a-quote/">Contact us <span aria-hidden="true">↗</span></a><a className="text-link" href="mailto:info@breezeblock.ca">info@breezeblock.ca</a></div></div>
   </section>
  </>;
