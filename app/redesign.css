@@ -100,3 +100,16 @@ html{scroll-padding-top:110px}body{font-size:15px;line-height:1.6}h1,h2,h3{font-
 .simple-contact-form .button{width:100%}
 .contact-context{margin:0 0 24px;font-size:14px}
 @media(max-width:600px){.simple-contact-page{padding-block:42px 65px}.contact-page-intro h1{font-size:46px}.simple-contact-form{padding:24px 20px}.simple-contact-form .fields{grid-template-columns:1fr;gap:18px}.simple-contact-form .field.full{grid-column:auto}}
+
+/* Compact footer, inspired by the supplied reference. */
+.site-footer .footer-simple{padding-block:55px 40px}
+.footer-simple-top,.footer-simple-bottom{display:flex;justify-content:space-between;gap:28px}
+.footer-simple-top{align-items:flex-start;padding-bottom:42px}
+.footer-simple-top p{color:#d0cec6;font-size:16px;margin:22px 0 0}
+.footer-simple-top nav,.footer-simple-policies{display:flex;flex-wrap:wrap;gap:28px}
+.footer-simple a{text-decoration:none}
+.footer-simple a:hover{text-decoration:underline}
+.footer-simple-top nav a{font-size:15px;color:var(--paper)}
+.footer-simple-bottom{border-top:1px solid #62635c;padding-top:28px;align-items:center;color:#c3c2ba;font-size:13px}
+.footer-simple-policies{gap:18px;margin-inline:auto}
+@media(max-width:700px){.site-footer .footer-simple{padding-block:40px 30px}.footer-simple-top{flex-direction:column;gap:28px;padding-bottom:30px}.footer-simple-top p{font-size:14px;margin-top:16px}.footer-simple-top nav{gap:24px}.footer-simple-bottom{align-items:flex-start;flex-direction:column;gap:14px}.footer-simple-policies{margin:0;order:1}}
