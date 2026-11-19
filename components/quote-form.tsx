@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 
-export default function QuoteForm() {
+export default function QuoteForm({ trade = false }: { trade?: boolean }) {
  const [busy, setBusy] = useState(false);
  const [error, setError] = useState('');
  const [saved, setSaved] = useState('');
@@ -32,6 +32,10 @@ export default function QuoteForm() {
   setBusy(true);
   setError('');
   const data = Object.fromEntries(new FormData(event.currentTarget));
+  if (trade) {
+   data.interest = 'trade';
+   data.notes = `City / State: ${data.location}\nProfession: ${data.profession}\nWebsite: ${data.companyWebsite}\n\n${data.notes}`;
+  }
   let attribution = {};
   try { attribution = JSON.parse(sessionStorage.getItem('bb_first_source') || '{}'); } catch {}
   try {
@@ -51,17 +55,23 @@ export default function QuoteForm() {
 
  if (saved) return <div className="success" ref={success} tabIndex={-1} role="status"><p className="eyebrow">Message received</p><h2>Thank you for reaching out.</h2><p>Your message has been saved. We’ll reply by email to discuss the next steps.</p><p className="fine-print">Reference: {saved}</p></div>;
  return <form className="quote-form simple-contact-form" ref={form} onSubmit={submit}>
-  <input type="hidden" name="interest" defaultValue="quote"/><input type="hidden" name="pattern"/><input type="hidden" name="finish" defaultValue="Not sure yet"/><input type="hidden" name="region" defaultValue="Other"/><input type="hidden" name="quantity"/>
+  <input type="hidden" name="interest" defaultValue={trade ? 'trade' : 'quote'}/><input type="hidden" name="pattern"/><input type="hidden" name="finish" defaultValue="Not sure yet"/><input type="hidden" name="region" defaultValue="Other"/><input type="hidden" name="quantity"/>
   {context && <p className="contact-context">Regarding: {context}</p>}
   <div className="fields">
-   <label className="field">Name<input name="name" autoComplete="name" required minLength={2} maxLength={100}/></label>
+   <label className="field">{trade ? 'Full name *' : 'Name'}<input name="name" autoComplete="name" required minLength={2} maxLength={100}/></label>
+   {trade && <label className="field">Company name *<input name="company" autoComplete="organization" required maxLength={160}/></label>}
    <label className="field">Email<input name="email" type="email" autoComplete="email" required maxLength={254}/></label>
-   <label className="field full">How can we help?<textarea name="notes" required maxLength={2000} rows={5} placeholder="Tell us a little about your project or question…"/></label>
-   <label className="field full">Phone <span className="optional-label">(optional)</span><input name="phone" type="tel" autoComplete="tel" maxLength={160}/></label>
+   {trade && <>
+    <label className="field">Website (optional)<input name="companyWebsite" placeholder="https://" autoComplete="url" maxLength={200}/></label>
+    <label className="field">City / State *<input name="location" autoComplete="address-level2" required maxLength={160}/></label>
+    <label className="field">Profession *<select name="profession" required><option value="">Select your profession</option>{['Architect', 'Interior designer', 'Landscape designer', 'Builder / contractor', 'Other design or construction professional'].map(value => <option key={value}>{value}</option>)}</select></label>
+   </>}
+   <label className="field full">{trade ? 'Tell us about your current projects (optional)' : 'How can we help?'}<textarea name="notes" required={!trade} maxLength={trade ? 1400 : 2000} rows={trade ? 4 : 5} placeholder="Tell us a little about your project or question…"/></label>
+   {!trade && <label className="field full">Phone <span className="optional-label">(optional)</span><input name="phone" type="tel" autoComplete="tel" maxLength={160}/></label>}
   </div>
   <div className="honeypot" aria-hidden="true"><label>Leave this field empty<input name="website" tabIndex={-1} autoComplete="off"/></label></div>
   <label className="check-label"><input name="consent" type="checkbox" required/><span>I agree to the use of my details to respond to this message, as described in the <a href="/privacy/">privacy notice</a>.</span></label>
   {error && <div role="alert" className="form-error"><p>{error}</p><p>Your message is still here. You can also <a href="mailto:info@breezeblock.ca?subject=US%20project%20enquiry">email us directly</a>.</p></div>}
-  <button className="button" type="submit" disabled={busy}>{busy ? 'Sending…' : 'Send message'}<span aria-hidden="true">↗</span></button>
+  <button className="button" type="submit" disabled={busy}>{busy ? 'Sending…' : trade ? 'Apply for trade access' : 'Send message'}<span aria-hidden="true">↗</span></button>
  </form>;
 }

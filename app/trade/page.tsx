@@ -1,45 +1,61 @@
+import QuoteForm from '@/components/quote-form';
+import { Tag, Box, ClipboardList, MessagesSquare, Check } from 'lucide-react';
 import { products } from '@/lib/catalog';
 import { pageMetadata } from '@/lib/site';
 import styles from './trade.module.css';
 
 export const metadata = pageMetadata('trade', 'Breeze Blocks for Architects, Designers & Trade', 'Explore breeze block patterns, request samples and trade pricing, and download drawings for Pacific Northwest projects.');
 
-const enquiry = '/request-a-quote/?interest=trade';
+const enquiry = '#trade-application';
 const fourLeaf = products.find(product => product.patternSlug === 'four-leaf' && product.size === 'Large')!;
 const resources = [
-  { title: 'Dimensioned drawings', image: 'drawing', alt: 'Four Leaf block shown in front, top and isometric views', files: fourLeaf.documents.filter(file => ['Dimensioned Drawing', 'CAD Drawing'].includes(file.label)) },
-  { title: '3D models', image: 'model', alt: 'Four Leaf model showing the depth of its openings', files: fourLeaf.documents.filter(file => ['STEP', 'SKP'].includes(file.format)) },
+  { title: 'CAD drawings', image: 'drawing', alt: 'Four Leaf block shown in front, top and isometric views', files: fourLeaf.documents.filter(file => ['Dimensioned Drawing', 'CAD Drawing'].includes(file.label)) },
+  { title: 'BIM + 3D models', image: 'model', alt: 'Four Leaf model showing the depth of its openings', files: fourLeaf.documents.filter(file => ['STEP', 'SKP'].includes(file.format)) },
 ];
 
 export default function TradePage() {
   return <div className={styles.page}>
     <section className={styles.hero}>
       <img src="/images/trade/courtyard.webp" alt="White circular breeze blocks screening a landscaped courtyard" fetchPriority="high" />
-      <div className="wrap"><p className="eyebrow">For architects, designers, and builders</p>
-        <h1>BreezeBlock Trade</h1><p>Choose a pattern, work out quantities, and get project pricing for your Pacific Northwest build.</p>
-        <div className="actions"><a className="button" href={enquiry}>Ask about trade pricing</a><a href="#trade-resources">Explore technical files</a></div>
+      <div className="wrap"><p className="eyebrow">For Professionals</p>
+        <h1>Trade Program</h1><p>Trade pricing, samples, exclusive designs, and technical resources for interior designers, architects, and other trade professionals.</p>
+        <div className="actions"><a className="button" href={enquiry}>Apply for trade access</a><a href="#trade-resources">Explore resources</a></div>
       </div>
     </section>
+    <ul className={'wrap ' + styles.benefits}>
+      {[
+        { Icon: Tag, title: '25%', copy: 'Trade pricing for approved professionals.' },
+        { Icon: Box, title: 'Exclusive designs', copy: 'Access to trade-exclusive and special-order patterns.' },
+        { Icon: ClipboardList, title: 'Technical resources', copy: 'CAD, STEP, PDFs and specifications.' },
+        { Icon: MessagesSquare, title: 'Project support', copy: 'Samples, quantities, freight and project guidance.' },
+      ].map(({ Icon, title, copy }) => <li key={title}><Icon aria-hidden="true"/><div><h2>{title}</h2><p>{copy}</p></div></li>)}
+    </ul>
     <section className={'wrap ' + styles.split}>
       <img src="/images/trade/collection.webp" alt="Five white concrete blocks with circular, angular and sunburst patterns" loading="lazy" />
-      <div><p className="eyebrow">The trade collection</p><h2>Find the right block for your project.</h2>
-        <p>Explore our eight catalog patterns or ask about a special-order design. We can help you check sample availability, estimate freight, and price the quantities on your plans.</p>
-        <a className="text-link" href="/breeze-blocks/">Browse the catalog</a>
+      <div><p className="eyebrow">The trade collection</p><h2>Beyond the core collection.</h2>
+        <p>Explore an expanded collection of architectural concrete designs available by special order, including patterns and formats beyond our standard collection.</p>
+
       </div>
     </section>
     <section className={styles.resources} id="trade-resources"><div className="wrap">
-      <p className="eyebrow">Technical resources</p><h2>Specify the details.</h2>
-      <p>Download drawings and models for Large Four Leaf below, or find files for another pattern in the <a href="/resources/#library-heading">technical library</a>.</p>
+      <div className={styles.resourceIntro}><p className="eyebrow">Specify with confidence</p><h2>Everything you need to specify Breeze Block.</h2>
+      <p>Download product specifications, CAD, 3D models and installation resources.</p>
+      <ul className={styles.resourceBenefits}>{[
+        { Icon: ClipboardList, title: 'Product specifications', copy: 'Dimensions, performance and material data' },
+        { Icon: Box, title: 'CAD & 3D files', copy: 'PDF, DWG, STEP and SketchUp files' },
+        { Icon: Check, title: 'Installation guidance', copy: 'Guidance for interior and exterior applications' },
+      ].map(({ Icon, title, copy }) => <li key={title}><Icon aria-hidden="true"/><div><h3>{title}</h3><p>{copy}</p></div></li>)}</ul></div>
       <div className={styles.cards}>{resources.map(resource => <article key={resource.image}>
         <img src={'/images/trade/' + resource.image + '.webp'} alt={resource.alt} loading="lazy" />
-        <h3>{resource.title}</h3><div className="actions">{resource.files.map(file => <a className="text-link" key={file.url} href={file.url} aria-label={'Large Four Leaf ' + file.label + ' (' + file.format + ')'}>{file.format}</a>)}</div>
-      </article>)}</div>
+        <h3>{resource.title}</h3><p>{resource.image === 'drawing' ? 'Dimensioned drawings and technical details.' : '3D files for design and coordination.'}</p><div className="actions">{resource.files.map(file => <a className="text-link" key={file.url} href={file.url} aria-label={'Large Four Leaf ' + file.label + ' (' + file.format + ')'}>{file.format}</a>)}</div>
+      </article>)}<a className={styles.library} href="/resources/#library-heading">Browse all technical resources</a></div>
     </div></section>
-    <section className={'wrap ' + styles.split}>
-      <div><p className="eyebrow">Trade enquiries</p><h2>Tell us what you’re planning.</h2>
-        <p>Send a sketch, a pattern you like, or a question about a site. We’ll help you work through the next steps.</p>
-        <a href={enquiry} className="button">Start a trade enquiry</a>
-      </div><img src="/images/trade/patio.webp" alt="Breeze block screen framing an outdoor seating area" loading="lazy" />
+    <section className={styles.application} id="trade-application">
+      <img src="/images/trade/patio.webp" alt="Breeze block screen framing an outdoor seating area" loading="lazy" />
+      <div className={styles.applicationCopy}><p className="eyebrow">Join the trade program</p><h2>Apply for trade access.</h2>
+        <p>Get 25% trade discount, access to exclusive designs and support for your projects.</p>
+        <QuoteForm trade/>
+      </div>
     </section>
   </div>;
 }
