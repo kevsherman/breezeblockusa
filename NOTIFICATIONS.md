@@ -1,6 +1,6 @@
 # Enquiry notifications
 
-The quote form stays on breezeblockusa.com. D1 persistence is the submission success boundary. After a successful save, the Worker uses `waitUntil` to attempt the notification without delaying the visitor. The destination is fixed server-side to `info@breezeblock.ca`; Reply-To is the validated enquirer's email.
+The quote form stays on breezeblockusa.com. D1 persistence is the submission success boundary. After a successful save, the Worker uses `waitUntil` to attempt the notification without delaying the visitor. The destination is fixed server-side to `hello@breezeblockusa.com`; Reply-To is the validated enquirer's email.
 
 ## Resend configuration
 

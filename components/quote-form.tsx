@@ -71,7 +71,7 @@ export default function QuoteForm({ trade = false }: { trade?: boolean }) {
   </div>
   <div className="honeypot" aria-hidden="true"><label>Leave this field empty<input name="website" tabIndex={-1} autoComplete="off"/></label></div>
   <label className="check-label"><input name="consent" type="checkbox" required/><span>I agree to the use of my details to respond to this message, as described in the <a href="/privacy/">privacy notice</a>.</span></label>
-  {error && <div role="alert" className="form-error"><p>{error}</p><p>Your message is still here. You can also <a href="mailto:info@breezeblock.ca?subject=US%20project%20enquiry">email us directly</a>.</p></div>}
+  {error && <div role="alert" className="form-error"><p>{error}</p><p>Your message is still here. You can also <a href="mailto:hello@breezeblockusa.com?subject=US%20project%20enquiry">email us directly</a>.</p></div>}
   <button className="button" type="submit" disabled={busy}>{busy ? 'Sending…' : trade ? 'Apply for trade access' : 'Send message'}<span aria-hidden="true">↗</span></button>
  </form>;
 }

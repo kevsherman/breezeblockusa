@@ -27,7 +27,7 @@ add('success');
 let sends = 0;
 await run('success',now,async (message,key) => {
  sends++;
- assert.deepEqual(message.to,['info@breezeblock.ca']);
+ assert.deepEqual(message.to,['hello@breezeblockusa.com']);
  assert.equal(message.replyTo,'customer@example.invalid');
  assert.equal(message.template.variables.NAME,'Test &lt;name&gt;');
  assert.ok(message.template.variables.NOTES.length < 2000);

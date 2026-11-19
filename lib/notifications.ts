@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import type { CreateEmailOptions } from 'resend';
 
-export const notificationRecipient = 'info@breezeblock.ca';
+export const notificationRecipient = 'hello@breezeblockusa.com';
 const retryDelays = [60_000, 300_000, 900_000, 3_600_000, 10_800_000];
 const leaseMs = 120_000;
 // Resend retains idempotency keys for 24 hours. Stop before that boundary;

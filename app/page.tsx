@@ -51,7 +51,7 @@ export default function Home() {
 
   <section className="wrap home-contact" aria-labelledby="contact-title">
    <div><p className="eyebrow">Get in touch</p><h2 id="contact-title">Ready to<br/>get started?</h2></div>
-   <div className="home-contact-copy"><p>Have a pattern in mind, a drawing to share, or a question about where to start? Tell us about your project. We’ll help with selection, samples, and delivery.</p><div className="actions"><a className="button" href="/request-a-quote/">Contact us <span aria-hidden="true">↗</span></a><a className="text-link" href="mailto:info@breezeblock.ca">info@breezeblock.ca</a></div></div>
+   <div className="home-contact-copy"><p>Have a pattern in mind, a drawing to share, or a question about where to start? Tell us about your project. We’ll help with selection, samples, and delivery.</p><div className="actions"><a className="button" href="/request-a-quote/">Contact us <span aria-hidden="true">↗</span></a><a className="text-link" href="mailto:hello@breezeblockusa.com">hello@breezeblockusa.com</a></div></div>
   </section>
  </>;
 }
