@@ -2,7 +2,7 @@ import { pageMetadata } from '@/lib/site';
 import { patterns, products } from '@/lib/catalog';
 export const metadata = pageMetadata('', 'Architectural Breeze Blocks for the Northwest', 'Explore eight handcrafted architectural concrete breeze block patterns. White and grey finishes, trade support and project quoting for the Pacific Northwest.');
 
-const patternCards = patterns.map(pattern => ({ ...pattern, image: products.find(product => product.patternSlug === pattern.slug && product.finish === 'White')?.images[1] }));
+const patternCards = patterns.map(pattern => ({ ...pattern, image: products.find(product => product.patternSlug === pattern.slug && product.finish === 'White')?.images[0] }));
 
 export default function Home() {
  return <>
