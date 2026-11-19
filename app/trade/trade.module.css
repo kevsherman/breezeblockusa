@@ -1,4 +1,4 @@
-.page { --trade-base: #f7f5ee; background: var(--trade-base); }
+.page { --trade-base: var(--paper); background: var(--trade-base); }
 .page h2 { font-size: clamp(2rem, 3vw, 3rem); line-height: 1.12; margin-bottom: 1rem; }
 .page p { line-height: 1.6; }
 .hero { position: relative; isolation: isolate; overflow: hidden; }
@@ -10,6 +10,7 @@
 .hero :global(.actions) { margin-top: 32px; align-items: stretch; }
 .hero :global(.actions) > a { border: 1px solid currentColor; padding: 14px 20px; text-decoration: none; background: transparent; color: inherit; transition: background-color .2s, color .2s, border-color .2s; }
 .hero :global(.actions) > a:hover, .hero :global(.actions) > a:focus-visible { background: var(--accent); border-color: var(--accent); color: #fffdf8; }
+.benefitsBand { background: #f1ece1; border-block: 1px solid var(--line); }
 .benefits { display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; padding-block: 36px; margin-block: 0; }
 .benefits li { display: flex; gap: 16px; padding-inline: 20px; border-left: 1px solid #3333; }
 .benefits li:first-child { border: 0; padding-left: 0; }
@@ -18,7 +19,7 @@
 .benefits p { font-size: 14px; margin: 0; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: center; padding-block: 56px; }
 .split > img { width: 63%; justify-self: center; }
-.resources { padding-block: 56px; scroll-margin-top: 120px; }
+.resources { background: var(--sand); padding-block: 65px; scroll-margin-top: 120px; }
 .resources > div { display: grid; grid-template-columns: 1.05fr 2fr; gap: 32px; }
 .resourceBenefits { list-style: none; padding: 0; margin: 36px 0 0; display: grid; gap: 24px; }
 .resourceBenefits li { display: flex; gap: 20px; }
@@ -26,6 +27,7 @@
 .resourceBenefits h3 { font-family: inherit; font-size: 16px; margin: 0 0 4px; }
 .resourceBenefits p { margin: 0; font-size: 14px; }
 .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-content: start; }
+.cards article { background: var(--white); padding-bottom: 8px; }
 .cards img { width: 100%; aspect-ratio: 6 / 5; object-fit: contain; display: block; background: #fff; }
 .cards article:nth-child(2) img { background: #2e3440; }
 .cards h3 { font-family: inherit; font-size: 16px; margin: 20px 16px 6px; }
@@ -34,7 +36,7 @@
 .fileFormat { border: 1px solid #3336; padding: 10px 16px; font-size: 14px; text-decoration: none; }
 .fileFormat { display: inline-block; cursor: default; transition: background-color .2s, border-color .2s; }
 .fileFormat:hover { background: #e4e1d7; border-color: #333; }
-.application { display: grid; grid-template-columns: .9fr 1.1fr; background: #ebe9e1; border-top: 1px solid #3333; scroll-margin-top: 120px; }
+.application { display: grid; grid-template-columns: .9fr 1.1fr; background: var(--paper); border-top: 1px solid var(--line); scroll-margin-top: 120px; }
 .application > img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; align-self: center; }
 .applicationCopy { padding: 56px clamp(24px, 5vw, 96px); }
 .applicationCopy :global(.quote-form) { padding: 0; border: 0; background: transparent; box-shadow: none; margin-top: 24px; }

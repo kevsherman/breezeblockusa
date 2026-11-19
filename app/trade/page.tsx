@@ -20,14 +20,14 @@ export default function TradePage() {
         <div className="actions"><a className="button" href={enquiry}>Apply for trade access</a><a className="button" href="#trade-resources">Explore resources</a></div>
       </div>
     </section>
-    <ul className={'wrap ' + styles.benefits}>
+    <div className={styles.benefitsBand}><ul className={'wrap ' + styles.benefits}>
       {[
         { Icon: Tag, title: '25%', copy: 'Trade pricing for approved professionals.' },
         { Icon: Box, title: 'Exclusive designs', copy: 'Access to trade-exclusive and special-order patterns.' },
         { Icon: ClipboardList, title: 'Technical resources', copy: 'CAD, STEP and specifications.' },
         { Icon: MessagesSquare, title: 'Project support', copy: 'Samples, quantities, freight and project guidance.' },
       ].map(({ Icon, title, copy }) => <li key={title}><Icon aria-hidden="true"/><div><h2>{title}</h2><p>{copy}</p></div></li>)}
-    </ul>
+    </ul></div>
     <section className={'wrap ' + styles.split}>
       <img src="/images/trade/collection.webp" alt="Five white concrete blocks with circular, angular and sunburst patterns" loading="lazy" />
       <div><p className="eyebrow">The trade collection</p><h2>Beyond the core collection.</h2>
