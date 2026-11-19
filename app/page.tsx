@@ -46,7 +46,7 @@ export default function Home() {
     <p>Each block starts with a fine blend of cement and sand, shaped by hand with the help of hydraulic presses.</p>
     <p>The process produces crisp edges and a refined finish on both faces, giving the material the same care from either side.</p>
    </div>
-   <figure className="home-craft-image"><img src="/images/handcrafted.webp" alt="A gloved hand filling a breeze block mould with fine cement and sand aggregate" width="1500" height="1081" loading="lazy"/><figcaption>Fine aggregate. Hydraulic pressing. Care in every block.</figcaption></figure>
+   <figure className="home-craft-image"><img src="/images/handcrafted-updated.webp" alt="A gloved hand filling a breeze block mould with fine cement and sand aggregate" width="1536" height="1024" loading="lazy"/><figcaption>Fine aggregate. Hydraulic pressing. Care in every block.</figcaption></figure>
   </div></section>
 
   <section className="wrap home-contact" aria-labelledby="contact-title">

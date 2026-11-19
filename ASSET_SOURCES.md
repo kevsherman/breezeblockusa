@@ -33,3 +33,7 @@ Prompt: “Use case: background-extraction. Edit target: supplied Large Grey Fou
 ## Homepage forest concept — November 16, 2026
 
 `public/images/hero-forest-concept.webp` was converted from the Gemini-generated image supplied by the owner (`Gemini_Generated_Image_fz6f4ufz6f4ufz6f.jpeg`). It is a concept rendering, not a documented installed project. The hero labels it “Concept image.”
+
+## Handcrafted image update — November 19, 2026
+
+`public/images/handcrafted-updated.webp` was converted from the owner-supplied `Gloved Hand Shaping Cement Mold.png`.
