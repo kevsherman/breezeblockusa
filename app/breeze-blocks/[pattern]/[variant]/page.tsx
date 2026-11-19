@@ -6,7 +6,12 @@ import ProductGallery from '@/components/product-gallery';
 import ProductOptions from '@/components/product-options';
 import CatalogGrid from '@/components/catalog-grid';
 type Props={params:Promise<{pattern:string;variant:string}>};
-async function find(params:Props['params']){const {pattern,variant}=await params;return products.find(p=>p.patternSlug===pattern&&p.variantSlug===variant)}
+async function find(params:Props['params']) {
+ const {pattern,variant}=await params;
+ const product=products.find(p=>p.patternSlug===pattern&&p.variantSlug===variant);
+ if(!product)return undefined;
+ return {...product,images:product.images.map(image=>image.replace('-matched.webp','.webp'))};
+}
 export async function generateMetadata({params}:Props){const p=await find(params);return p?{...pageMetadata(productPath(p),p.title,`${p.description} ${p.size} format in ${p.finish.toLowerCase()}. View dimensions, photos and technical references, and request a project quote.`),openGraph:{title:p.title,description:p.description,type:'website',url:origin+productPath(p),images:[{url:origin+p.images[0],alt:p.title}]}}:{title:'Product not found'};}
 export default async function Product({params}:Props){
  const p=await find(params);if(!p)notFound();
