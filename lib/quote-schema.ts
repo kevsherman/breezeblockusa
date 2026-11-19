@@ -8,6 +8,6 @@ export const quoteSchema=z.object({
  application:z.enum(['Interior','Sheltered exterior','Exposed exterior','Not sure yet']).default('Not sure yet'),timing:short,
  siteType:z.enum(['Residential','Commercial','Construction site','Not sure yet']).default('Not sure yet'),unloading:z.enum(['Not sure yet','Loading dock','Forklift','Liftgate requested']).default('Not sure yet'),
  notes:z.string().trim().max(2000).default(''),drawingUrl:z.union([z.literal(''),z.string().url().max(1000).refine(v=>v.startsWith('https://'))]).default(''),
- consent:z.literal(true),website:z.string().max(200).default(''),
+ website:z.string().max(200).default(''),
  attribution:z.object({source:z.string().max(200).default(''),medium:z.string().max(200).default(''),campaign:z.string().max(200).default(''),landing:z.string().max(300).default('')}).optional()
 });

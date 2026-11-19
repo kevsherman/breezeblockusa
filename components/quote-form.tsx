@@ -41,7 +41,7 @@ export default function QuoteForm({ trade = false }: { trade?: boolean }) {
   try {
    const response = await fetch('/api/quotes', {
     method: 'POST', signal: AbortSignal.timeout(20000), headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ ...data, id: requestId.current, consent: data.consent === 'on', attribution }),
+    body: JSON.stringify({ ...data, id: requestId.current, attribution }),
    });
    const result = await response.json() as { id?: string; error?: string };
    if (!response.ok) throw new Error(result.error || 'Please try again.');
@@ -70,7 +70,6 @@ export default function QuoteForm({ trade = false }: { trade?: boolean }) {
    {!trade && <label className="field full">Phone <span className="optional-label">(optional)</span><input name="phone" type="tel" autoComplete="tel" maxLength={160}/></label>}
   </div>
   <div className="honeypot" aria-hidden="true"><label>Leave this field empty<input name="website" tabIndex={-1} autoComplete="off"/></label></div>
-  <label className="check-label"><input name="consent" type="checkbox" required/><span>I agree to the use of my details to respond to this message, as described in the <a href="/privacy/">privacy notice</a>.</span></label>
   {error && <div role="alert" className="form-error"><p>{error}</p><p>Your message is still here. You can also <a href="mailto:hello@breezeblockusa.com?subject=US%20project%20enquiry">email us directly</a>.</p></div>}
   <button className="button" type="submit" disabled={busy}>{busy ? 'Sending…' : trade ? 'Apply for trade access' : 'Send message'}<span aria-hidden="true">↗</span></button>
  </form>;
