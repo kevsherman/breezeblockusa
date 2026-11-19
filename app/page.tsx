@@ -10,7 +10,7 @@ export default function Home() {
 
   <section className="wrap home-introduction" id="the-collection" aria-labelledby="introduction-title">
    <div className="editorial-heading">
-    <div><p className="eyebrow">Architectural breeze blocks</p><h2 id="introduction-title">Concrete blocks.<br/>Designed for light and air.</h2></div>
+    <div><p className="eyebrow">Architectural breeze blocks</p><h2 id="introduction-title">Concrete blocks, <em>refined</em></h2></div>
     <div className="editorial-intro"><p>A wall can do more than divide a space. Breeze blocks bring texture, filtered light, and a sense of connection.</p><p>Rooted in mid-century design, made for spaces today. Explore eight patterns for screens, partitions, and architectural details with character.</p></div>
    </div>
   </section>
