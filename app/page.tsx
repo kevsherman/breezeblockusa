@@ -6,11 +6,11 @@ const patternCards = patterns.map(pattern => ({ ...pattern, image: products.find
 
 export default function Home() {
  return <>
-  <section className="landing-hero" aria-labelledby="hero-title"><img className="landing-hero-image" src="/images/hero-forest-concept.webp" alt="Concept rendering of a breeze block screen beside a wooded Pacific Northwest home" width="1376" height="768" fetchPriority="high"/><div className="landing-hero-shade"/><div className="wrap landing-hero-copy"><h1 id="hero-title">Architectural Breeze Blocks<br/>for the Pacific Northwest</h1><p>Serving Washington, Oregon, Idaho, and Montana</p><a className="button" href="/breeze-blocks/">Explore the collection <span aria-hidden="true">↗</span></a></div><span className="hero-image-note">Concept image</span><a className="hero-scroll" href="#the-collection" aria-label="Discover the collection below"><span>Discover</span><span aria-hidden="true">↓</span></a></section>
+  <section className="landing-hero" aria-labelledby="hero-title"><img className="landing-hero-image" src="/images/hero-forest-concept.webp" alt="Concept rendering of a breeze block screen beside a wooded Pacific Northwest home" width="1376" height="768" fetchPriority="high"/><div className="landing-hero-shade"/><div className="wrap landing-hero-copy"><h1 id="hero-title">Architectural Breeze Blocks<br/><em>for the Pacific Northwest</em></h1><p>Serving Washington, Oregon, Idaho, and Montana</p><a className="button" href="/breeze-blocks/">Explore the collection <span aria-hidden="true">↗</span></a></div><span className="hero-image-note">Concept image</span><a className="hero-scroll" href="#the-collection" aria-label="Discover the collection below"><span>Discover</span><span aria-hidden="true">↓</span></a></section>
 
   <section className="wrap home-introduction" id="the-collection" aria-labelledby="introduction-title">
    <div className="editorial-heading">
-    <div><p className="eyebrow">Architectural breeze blocks</p><h2 id="introduction-title">Solid material.<br/><em>Room for possibility.</em></h2></div>
+    <div><p className="eyebrow">Architectural breeze blocks</p><h2 id="introduction-title">Concrete blocks.<br/>Designed for light and air.</h2></div>
     <div className="editorial-intro"><p>A wall can do more than divide a space. Breeze blocks bring texture, filtered light, and a sense of connection.</p><p>Rooted in mid-century design, made for spaces today. Explore eight patterns for screens, partitions, and architectural details with character.</p></div>
    </div>
   </section>
@@ -19,7 +19,7 @@ export default function Home() {
    <div className="collection-feature collection-introduction">
     <a className="collection-feature-image" href="/breeze-blocks/"><img src="/images/catalog/four-leaf-large-grey-3.webp" alt="Four Leaf concrete blocks arranged in a repeating wall pattern" width="800" height="1000" loading="lazy"/><span className="image-wordmark">BreezeBlock / The collection</span></a>
     <div className="collection-feature-copy">
-     <p className="eyebrow">The pattern collection</p><h2 id="collection-title">A little separation.<br/><em>A stronger connection.</em></h2>
+     <p className="eyebrow">The pattern collection</p><h2 id="collection-title">Pattern, light,<br/>and a little privacy.</h2>
      <p>From the soft curves of Four Leaf to the clean geometry of Square on Square. Find a pattern that shapes the light and gives your space a rhythm of its own.</p>
      <div className="feature-facts"><div><span>Patterns</span><strong>Eight designs</strong></div><div><span>Formats</span><strong>Small + large</strong></div><div><span>Finishes</span><strong><i className="colour-dot white"/><i className="colour-dot grey"/> White + grey</strong></div></div>
      <a className="text-link" href="/breeze-blocks/">Explore all eight patterns <span aria-hidden="true">↗</span></a>
@@ -50,7 +50,7 @@ export default function Home() {
   </div></section>
 
   <section className="wrap home-contact" aria-labelledby="contact-title">
-   <div><p className="eyebrow">Get in touch</p><h2 id="contact-title">Let’s make room<br/>for your idea.</h2></div>
+   <div><p className="eyebrow">Get in touch</p><h2 id="contact-title">Ready to<br/>get started?</h2></div>
    <div className="home-contact-copy"><p>Have a pattern in mind, a drawing to share, or a question about where to start? Tell us about your project. We’ll help with selection, samples, and delivery.</p><div className="actions"><a className="button" href="/request-a-quote/">Contact us <span aria-hidden="true">↗</span></a><a className="text-link" href="mailto:info@breezeblock.ca">info@breezeblock.ca</a></div></div>
   </section>
  </>;
