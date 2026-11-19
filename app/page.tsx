@@ -19,7 +19,7 @@ export default function Home() {
    <div className="collection-feature collection-introduction">
     <a className="collection-feature-image" href="/breeze-blocks/"><img src="/images/catalog/four-leaf-large-grey-3.webp" alt="Four Leaf concrete blocks arranged in a repeating wall pattern" width="800" height="1000" loading="lazy"/><span className="image-wordmark">BreezeBlock / The collection</span></a>
     <div className="collection-feature-copy">
-     <p className="eyebrow">The pattern collection</p><h2 id="collection-title">Pattern, light,<br/>and a little privacy.</h2>
+     <p className="eyebrow">The pattern collection</p><h2 id="collection-title">Pattern, light, privacy</h2>
      <p>From the soft curves of Four Leaf to the clean geometry of Square on Square. Find a pattern that shapes the light and gives your space a rhythm of its own.</p>
      <div className="feature-facts"><div><span>Patterns</span><strong>Eight designs</strong></div><div><span>Formats</span><strong>Small + large</strong></div><div><span>Finishes</span><strong><i className="colour-dot white"/><i className="colour-dot grey"/> White + grey</strong></div></div>
      <a className="text-link" href="/breeze-blocks/">Explore all eight patterns <span aria-hidden="true">↗</span></a>
