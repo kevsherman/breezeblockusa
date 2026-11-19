@@ -45,7 +45,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 33.99
   },
   {
     "id": "9858952724793",
@@ -94,7 +95,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 31.99
   },
   {
     "id": "9656210981177",
@@ -135,7 +137,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858958688569",
@@ -173,7 +176,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9639643644217",
@@ -222,7 +226,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 33.99
   },
   {
     "id": "9858950529337",
@@ -271,7 +276,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 31.99
   },
   {
     "id": "9656080531769",
@@ -319,7 +325,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858955641145",
@@ -367,7 +374,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9670517063993",
@@ -415,7 +423,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858953609529",
@@ -462,7 +471,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9645247136057",
@@ -513,7 +523,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 33.99
   },
   {
     "id": "9858270691641",
@@ -561,7 +572,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 31.99
   },
   {
     "id": "9656184570169",
@@ -611,7 +623,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858956820793",
@@ -659,7 +672,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9660430909753",
@@ -689,7 +703,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858963374393",
@@ -717,7 +732,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9660405285177",
@@ -766,7 +782,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 33.99
   },
   {
     "id": "9858951545145",
@@ -814,7 +831,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 31.99
   },
   {
     "id": "9660412723513",
@@ -844,7 +862,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858955149625",
@@ -874,7 +893,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9670518735161",
@@ -922,7 +942,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858954002745",
@@ -969,7 +990,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   },
   {
     "id": "9660434940217",
@@ -999,7 +1021,8 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 12.49
   },
   {
     "id": "9858956263737",
@@ -1027,6 +1050,7 @@
         "label": "Specification Sheet",
         "format": "PDF"
       }
-    ]
+    ],
+    "retailPrice": 11.49
   }
 ]
