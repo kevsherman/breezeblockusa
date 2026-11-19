@@ -479,9 +479,7 @@
     "images": [
       "/images/catalog/empress-small-white-1.webp",
       "/images/catalog/empress-small-white-2.webp",
-      "/images/catalog/empress-small-white-3.webp",
-      "/images/catalog/empress-small-white-4.webp",
-      "/images/catalog/empress-small-white-5.webp"
+      "/images/catalog/empress-small-white-3.webp"
     ],
     "documents": [
       {
@@ -559,9 +557,7 @@
     "images": [
       "/images/catalog/seafoam-small-white-1-matched.webp",
       "/images/catalog/seafoam-small-white-2.webp",
-      "/images/catalog/seafoam-small-white-3.webp",
-      "/images/catalog/seafoam-small-white-4.webp",
-      "/images/catalog/seafoam-small-white-5.webp"
+      "/images/catalog/seafoam-small-white-3.webp"
     ],
     "documents": [],
     "retailPrice": 12.49
@@ -685,10 +681,7 @@
     },
     "images": [
       "/images/catalog/circle-small-white-1.webp",
-      "/images/catalog/circle-small-white-2.webp",
-      "/images/catalog/circle-small-white-3.webp",
-      "/images/catalog/circle-small-white-4.webp",
-      "/images/catalog/circle-small-white-5.webp"
+      "/images/catalog/circle-small-white-2.webp"
     ],
     "documents": [],
     "retailPrice": 12.49
