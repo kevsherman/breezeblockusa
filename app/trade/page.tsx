@@ -1,16 +1,14 @@
 import QuoteForm from '@/components/quote-form';
 import { Tag, Box, ClipboardList, MessagesSquare, Check } from 'lucide-react';
-import { products } from '@/lib/catalog';
 import { pageMetadata } from '@/lib/site';
 import styles from './trade.module.css';
 
 export const metadata = pageMetadata('trade', 'Breeze Blocks for Architects, Designers & Trade', 'Explore breeze block patterns, request samples and trade pricing, and download drawings for Pacific Northwest projects.');
 
 const enquiry = '#trade-application';
-const fourLeaf = products.find(product => product.patternSlug === 'four-leaf' && product.size === 'Large')!;
 const resources = [
-  { title: 'CAD drawings', image: 'drawing', alt: 'Four Leaf block shown in front, top and isometric views', files: fourLeaf.documents.filter(file => ['Dimensioned Drawing', 'CAD Drawing'].includes(file.label)) },
-  { title: 'BIM + 3D models', image: 'model', alt: 'Four Leaf model showing the depth of its openings', files: fourLeaf.documents.filter(file => ['STEP', 'SKP'].includes(file.format)) },
+  { title: 'CAD drawings', image: 'drawing', alt: 'Four Leaf block shown in front, top and isometric views', files: ['PDF', 'DWG'] },
+  { title: 'BIM + 3D models', image: 'model', alt: 'Four Leaf model showing the depth of its openings', files: ['STEP', 'SKP'] },
 ];
 
 export default function TradePage() {
@@ -47,7 +45,7 @@ export default function TradePage() {
       ].map(({ Icon, title, copy }) => <li key={title}><Icon aria-hidden="true"/><div><h3>{title}</h3><p>{copy}</p></div></li>)}</ul></div>
       <div className={styles.cards}>{resources.map(resource => <article key={resource.image}>
         <img src={'/images/trade/' + resource.image + '.webp'} alt={resource.alt} loading="lazy" />
-        <h3>{resource.title}</h3><p>{resource.image === 'drawing' ? 'Dimensioned drawings and technical details.' : '3D files for design and coordination.'}</p><div className="actions">{resource.files.map(file => <a className="text-link" key={file.url} href={file.url} aria-label={'Large Four Leaf ' + file.label + ' (' + file.format + ')'}>{file.format}</a>)}</div>
+        <h3>{resource.title}</h3><p>{resource.image === 'drawing' ? 'Dimensioned drawings and technical details.' : '3D files for design and coordination.'}</p><div className="actions">{resource.files.map(format => <span className={styles.fileFormat} key={format}>{format}</span>)}</div>
       </article>)}</div>
     </div></section>
     <section className={styles.application} id="trade-application">

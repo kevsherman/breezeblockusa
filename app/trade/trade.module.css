@@ -30,7 +30,9 @@
 .cards h3 { font-family: inherit; font-size: 16px; margin: 20px 16px 6px; }
 .cards p { margin: 0 16px; font-size: 14px; }
 .cards :global(.actions) { margin: 16px; gap: 12px; }
-.cards :global(.text-link) { border: 1px solid #3336; padding: 10px 16px; font-size: 14px; text-decoration: none; }
+.fileFormat { border: 1px solid #3336; padding: 10px 16px; font-size: 14px; text-decoration: none; }
+.fileFormat { display: inline-block; cursor: default; transition: background-color .2s, border-color .2s; }
+.fileFormat:hover { background: #e4e1d7; border-color: #333; }
 .application { display: grid; grid-template-columns: .9fr 1.1fr; background: #ebe9e1; border-top: 1px solid #3333; scroll-margin-top: 120px; }
 .application > img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; align-self: center; }
 .applicationCopy { padding: 56px clamp(24px, 5vw, 96px); }
