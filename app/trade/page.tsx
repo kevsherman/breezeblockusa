@@ -17,7 +17,7 @@ export default function TradePage() {
       <img src="/images/trade/courtyard.webp" alt="White circular breeze blocks screening a landscaped courtyard" fetchPriority="high" />
       <div className="wrap"><p className="eyebrow">For Professionals</p>
         <h1>Trade Program</h1><p>Trade pricing, samples, exclusive designs, and technical resources for interior designers, architects, and other trade professionals.</p>
-        <div className="actions"><a className="button" href={enquiry}>Apply for trade access</a><a href="#trade-resources">Explore resources</a></div>
+        <div className="actions"><a className="button" href={enquiry}>Apply for trade access</a><a className="button" href="#trade-resources">Explore resources</a></div>
       </div>
     </section>
     <ul className={'wrap ' + styles.benefits}>
