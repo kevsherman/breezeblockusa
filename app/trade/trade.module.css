@@ -8,7 +8,8 @@
 .hero h1 { font-size: clamp(3rem, 4.7vw, 4.5rem); line-height: 1.08; margin-bottom: 24px; }
 .hero p { max-width: 31rem; }
 .hero :global(.actions) { margin-top: 32px; align-items: stretch; }
-.hero :global(.actions) > a { border: 1px solid currentColor; padding: 14px 20px; text-decoration: none; background: transparent; color: inherit; }
+.hero :global(.actions) > a { border: 1px solid currentColor; padding: 14px 20px; text-decoration: none; background: transparent; color: inherit; transition: background-color .2s, color .2s, border-color .2s; }
+.hero :global(.actions) > a:hover, .hero :global(.actions) > a:focus-visible { background: var(--accent); border-color: var(--accent); color: #fffdf8; }
 .benefits { display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; padding-block: 36px; margin-block: 0; }
 .benefits li { display: flex; gap: 16px; padding-inline: 20px; border-left: 1px solid #3333; }
 .benefits li:first-child { border: 0; padding-left: 0; }
