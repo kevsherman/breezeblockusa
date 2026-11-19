@@ -15,7 +15,7 @@
       "Weight": "18.5 lbs"
     },
     "images": [
-      "/images/catalog/four-leaf-large-white-1.webp",
+      "/images/catalog/four-leaf-large-white-1-matched.webp",
       "/images/catalog/four-leaf-large-white-2.webp",
       "/images/catalog/four-leaf-large-white-3.webp"
     ],
@@ -165,7 +165,7 @@
       "Weight": "19.1 lbs"
     },
     "images": [
-      "/images/catalog/square-on-square-large-white-1.webp",
+      "/images/catalog/square-on-square-large-white-1-matched.webp",
       "/images/catalog/square-on-square-large-white-2.webp",
       "/images/catalog/square-on-square-large-white-3.webp",
       "/images/catalog/square-on-square-large-white-4.webp"
@@ -323,7 +323,7 @@
       "Weight": "7.2 lbs"
     },
     "images": [
-      "/images/catalog/bulls-eye-small-white-1.webp",
+      "/images/catalog/bulls-eye-small-white-1-matched.webp",
       "/images/catalog/bulls-eye-small-white-2.webp",
       "/images/catalog/bulls-eye-small-white-3.webp"
     ],
@@ -400,7 +400,7 @@
       "Weight": "17.2 lbs"
     },
     "images": [
-      "/images/catalog/empress-large-white-1.webp",
+      "/images/catalog/empress-large-white-1-matched.webp",
       "/images/catalog/empress-large-white-2.webp",
       "/images/catalog/empress-large-white-3.webp",
       "/images/catalog/empress-large-white-4.webp",
@@ -561,7 +561,7 @@
       "Weight": "6.2 lbs"
     },
     "images": [
-      "/images/catalog/seafoam-small-white-1.webp",
+      "/images/catalog/seafoam-small-white-1-matched.webp",
       "/images/catalog/seafoam-small-white-2.webp",
       "/images/catalog/seafoam-small-white-3.webp",
       "/images/catalog/seafoam-small-white-4.webp",
@@ -609,7 +609,7 @@
       "Weight": "17.2 lbs"
     },
     "images": [
-      "/images/catalog/circle-large-white-1.webp",
+      "/images/catalog/circle-large-white-1-matched.webp",
       "/images/catalog/circle-large-white-2.webp",
       "/images/catalog/circle-large-white-3.webp",
       "/images/catalog/circle-large-white-4.webp"
@@ -738,7 +738,7 @@
       "Weight": "6.4 lbs"
     },
     "images": [
-      "/images/catalog/courtyard-small-white-1.webp",
+      "/images/catalog/courtyard-small-white-1-matched.webp",
       "/images/catalog/courtyard-small-white-2.webp",
       "/images/catalog/courtyard-small-white-3.webp"
     ],
@@ -815,7 +815,7 @@
       "Weight": "6.4 lbs"
     },
     "images": [
-      "/images/catalog/three-pane-small-white-1.webp",
+      "/images/catalog/three-pane-small-white-1-matched.webp",
       "/images/catalog/three-pane-small-white-2.webp",
       "/images/catalog/three-pane-small-white-3.webp",
       "/images/catalog/three-pane-small-white-4.webp",
