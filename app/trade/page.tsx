@@ -7,7 +7,7 @@ export const metadata = pageMetadata('trade', 'Breeze Blocks for Architects, Des
 
 const enquiry = '#trade-application';
 const resources = [
-  { title: 'CAD drawings', image: 'drawing', alt: 'Four Leaf block shown in front, top and isometric views', files: ['PDF', 'DWG'] },
+  { title: 'CAD drawings', image: 'drawing', alt: 'Four Leaf block shown in front, top and isometric views', files: ['DWG'] },
   { title: 'BIM + 3D models', image: 'model', alt: 'Four Leaf model showing the depth of its openings', files: ['STEP', 'SKP'] },
 ];
 
@@ -24,7 +24,7 @@ export default function TradePage() {
       {[
         { Icon: Tag, title: '25%', copy: 'Trade pricing for approved professionals.' },
         { Icon: Box, title: 'Exclusive designs', copy: 'Access to trade-exclusive and special-order patterns.' },
-        { Icon: ClipboardList, title: 'Technical resources', copy: 'CAD, STEP, PDFs and specifications.' },
+        { Icon: ClipboardList, title: 'Technical resources', copy: 'CAD, STEP and specifications.' },
         { Icon: MessagesSquare, title: 'Project support', copy: 'Samples, quantities, freight and project guidance.' },
       ].map(({ Icon, title, copy }) => <li key={title}><Icon aria-hidden="true"/><div><h2>{title}</h2><p>{copy}</p></div></li>)}
     </ul>
@@ -40,7 +40,7 @@ export default function TradePage() {
       <p>Download product specifications, CAD, 3D models and installation resources.</p>
       <ul className={styles.resourceBenefits}>{[
         { Icon: ClipboardList, title: 'Product specifications', copy: 'Dimensions, performance and material data' },
-        { Icon: Box, title: 'CAD & 3D files', copy: 'PDF, DWG, STEP and SketchUp files' },
+        { Icon: Box, title: 'CAD & 3D files', copy: 'DWG, STEP and SketchUp files' },
         { Icon: Check, title: 'Installation guidance', copy: 'Guidance for interior and exterior applications' },
       ].map(({ Icon, title, copy }) => <li key={title}><Icon aria-hidden="true"/><div><h3>{title}</h3><p>{copy}</p></div></li>)}</ul></div>
       <div className={styles.cards}>{resources.map(resource => <article key={resource.image}>

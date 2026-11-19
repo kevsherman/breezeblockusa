@@ -21,11 +21,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_FOURLEAF_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_FOURLEAF_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -39,11 +34,6 @@
         "url": "/documents/BB_FOURLEAF_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 33.99
@@ -71,11 +61,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_FOURLEAF_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_FOURLEAF_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -89,11 +74,6 @@
         "url": "/documents/BB_FOURLEAF_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 31.99
@@ -131,11 +111,6 @@
         "url": "/documents/BB_FOURLEAF_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 12.49
@@ -170,11 +145,6 @@
         "url": "/documents/BB_FOURLEAF_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 11.49
@@ -202,11 +172,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_SQUARE_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_SQUARE_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -220,11 +185,6 @@
         "url": "/documents/BB_SQUARE_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 33.99
@@ -252,11 +212,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_SQUARE_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_SQUARE_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -270,11 +225,6 @@
         "url": "/documents/BB_SQUARE_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 31.99
@@ -301,11 +251,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_SQUARE_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_SQUARE_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -319,11 +264,6 @@
         "url": "/documents/BB_SQUARE_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 12.49
@@ -350,11 +290,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_SQUARE_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_SQUARE_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -368,11 +303,6 @@
         "url": "/documents/BB_SQUARE_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 11.49
@@ -399,11 +329,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_BULLSEYE_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_BULLSEYE_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -417,11 +342,6 @@
         "url": "/documents/BB_BULLSEYE_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 12.49
@@ -447,11 +367,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_BULLSEYE_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_BULLSEYE_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -465,11 +380,6 @@
         "url": "/documents/BB_BULLSEYE_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 11.49
@@ -499,11 +409,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_EMPRESS_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_EMPRESS_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -517,11 +422,6 @@
         "url": "/documents/BB_EMPRESS_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 33.99
@@ -548,11 +448,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_EMPRESS_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_EMPRESS_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -566,11 +461,6 @@
         "url": "/documents/BB_EMPRESS_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 31.99
@@ -599,11 +489,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_EMPRESS_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_EMPRESS_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -617,11 +502,6 @@
         "url": "/documents/BB_EMPRESS_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 12.49
@@ -648,11 +528,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_EMPRESS_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_EMPRESS_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -666,11 +541,6 @@
         "url": "/documents/BB_EMPRESS_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 11.49
@@ -697,13 +567,7 @@
       "/images/catalog/seafoam-small-white-4.webp",
       "/images/catalog/seafoam-small-white-5.webp"
     ],
-    "documents": [
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
-      }
-    ],
+    "documents": [],
     "retailPrice": 12.49
   },
   {
@@ -726,13 +590,7 @@
       "/images/catalog/seafoam-small-grey-2.webp",
       "/images/catalog/seafoam-small-grey-3.webp"
     ],
-    "documents": [
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
-      }
-    ],
+    "documents": [],
     "retailPrice": 11.49
   },
   {
@@ -758,11 +616,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_CIRCLE_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_CIRCLE_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -776,11 +629,6 @@
         "url": "/documents/BB_CIRCLE_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 33.99
@@ -807,11 +655,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_CIRCLE_L.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_CIRCLE_L.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -825,11 +668,6 @@
         "url": "/documents/BB_CIRCLE_L.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-290-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 31.99
@@ -856,13 +694,7 @@
       "/images/catalog/circle-small-white-4.webp",
       "/images/catalog/circle-small-white-5.webp"
     ],
-    "documents": [
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
-      }
-    ],
+    "documents": [],
     "retailPrice": 12.49
   },
   {
@@ -887,13 +719,7 @@
       "/images/catalog/circle-small-grey-4.webp",
       "/images/catalog/circle-small-grey-5.webp"
     ],
-    "documents": [
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
-      }
-    ],
+    "documents": [],
     "retailPrice": 11.49
   },
   {
@@ -918,11 +744,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_COURTYARD_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_COURTYARD_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -936,11 +757,6 @@
         "url": "/documents/BB_COURTYARD_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 12.49
@@ -966,11 +782,6 @@
     ],
     "documents": [
       {
-        "url": "/documents/BB_COURTYARD_SM.pdf",
-        "label": "Dimensioned Drawing",
-        "format": "PDF"
-      },
-      {
         "url": "/documents/BB_COURTYARD_SM.dwg",
         "label": "CAD Drawing",
         "format": "DWG"
@@ -984,11 +795,6 @@
         "url": "/documents/BB_COURTYARD_SM.skp",
         "label": "SketchUp Model",
         "format": "SKP"
-      },
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
       }
     ],
     "retailPrice": 11.49
@@ -1015,13 +821,7 @@
       "/images/catalog/three-pane-small-white-4.webp",
       "/images/catalog/three-pane-small-white-5.webp"
     ],
-    "documents": [
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
-      }
-    ],
+    "documents": [],
     "retailPrice": 12.49
   },
   {
@@ -1044,13 +844,7 @@
       "/images/catalog/three-pane-small-grey-2.webp",
       "/images/catalog/three-pane-small-grey-3.webp"
     ],
-    "documents": [
-      {
-        "url": "/documents/BB-SPEC-190-2026-08.pdf",
-        "label": "Specification Sheet",
-        "format": "PDF"
-      }
-    ],
+    "documents": [],
     "retailPrice": 11.49
   }
 ]
