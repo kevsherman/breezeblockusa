@@ -48,7 +48,7 @@ export default function TradePage() {
       <div className={styles.cards}>{resources.map(resource => <article key={resource.image}>
         <img src={'/images/trade/' + resource.image + '.webp'} alt={resource.alt} loading="lazy" />
         <h3>{resource.title}</h3><p>{resource.image === 'drawing' ? 'Dimensioned drawings and technical details.' : '3D files for design and coordination.'}</p><div className="actions">{resource.files.map(file => <a className="text-link" key={file.url} href={file.url} aria-label={'Large Four Leaf ' + file.label + ' (' + file.format + ')'}>{file.format}</a>)}</div>
-      </article>)}<a className={styles.library} href="/resources/#library-heading">Browse all technical resources</a></div>
+      </article>)}</div>
     </div></section>
     <section className={styles.application} id="trade-application">
       <img src="/images/trade/patio.webp" alt="Breeze block screen framing an outdoor seating area" loading="lazy" />
