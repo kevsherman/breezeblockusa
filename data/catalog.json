@@ -56,8 +56,7 @@
     "images": [
       "/images/catalog/four-leaf-large-grey-1.webp",
       "/images/catalog/four-leaf-large-grey-2-cutout.webp",
-      "/images/catalog/four-leaf-large-grey-3.webp",
-      "/images/catalog/four-leaf-large-grey-4.webp"
+      "/images/catalog/four-leaf-large-grey-3.webp"
     ],
     "documents": [
       {
@@ -97,7 +96,6 @@
       "/images/catalog/four-leaf-small-white-1.webp",
       "/images/catalog/four-leaf-small-white-2.webp",
       "/images/catalog/four-leaf-small-white-3.webp",
-      "/images/catalog/four-leaf-small-white-4.webp",
       "/images/catalog/four-leaf-small-white-5.webp",
       "/images/catalog/four-leaf-small-white-6.webp"
     ],
@@ -324,8 +322,7 @@
     },
     "images": [
       "/images/catalog/bulls-eye-small-white-1-matched.webp",
-      "/images/catalog/bulls-eye-small-white-2.webp",
-      "/images/catalog/bulls-eye-small-white-3.webp"
+      "/images/catalog/bulls-eye-small-white-2.webp"
     ],
     "documents": [
       {
@@ -404,7 +401,6 @@
       "/images/catalog/empress-large-white-2.webp",
       "/images/catalog/empress-large-white-3.webp",
       "/images/catalog/empress-large-white-4.webp",
-      "/images/catalog/empress-large-white-5.webp",
       "/images/catalog/empress-large-white-6.webp"
     ],
     "documents": [
